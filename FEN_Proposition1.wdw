@@ -1,0 +1,659 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Proposition1
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Proposition1
+ identifier : 0x217bb8932d3326c2
+ internal_properties : CAAAAAgAAADGVx11477wnm/3JDv3yW3fFxc5K0dteBaExb/F8zeW0Gw/6Jm+BwL99FXyxHDPgMIitKCTJa30NrFM3mezV2y/z5Rbs9Ku3zTN1svB3wMlpMUlCNO6P4YjLvOrHOXVj0Nh0vO6CCI+0GN4c4kUKISIJ1fm/qANNUA30KijXnNjXzqUVW7aypv5aQrL68174Q3AwfO6BXrkfKBMjPjNPKrrKJql3fOvcxb2FE7uuLgY4obRYsUUyr9TdBZU5X2kdOnDb41UBlCg8MENRKSjwjpUiJPvpj5YoV3ujgCzfUdX9s1S5kqVYdTMdfk1Yl4xKLgfICMvpAf9QyFs0aIxCKrUIWEBMySmfz86JAIdTgUtG0GDrRKUrZsGVy0gIjkIOEfoRIoImez8Pp+a6AfKNfTwcu6UF14h56fMj3dIwc2GtE49YTQf34vuMW5kMkUr9DKa5w9vLAg2Pl+1azEjaAqTiRY7iwHv/hglSlMbHlR1/LK+XQp5cnZpTypvWAdgxAsVKikCBYSwjZCo3aYRpKxQzlLpLoHAC0mFIkeKlQ0E6JsELnEQSqp7Ul+otRFKJy4ef3/sOA2oY/RMyi+0Lzrwcg6iXB77EwRMRE+CSz7jStJ/QepCiWJnI//drFVYekgKv2Rt11S8e1zkaXzEihstRat4Y7XOlRYVkR2qcjyW081QMrfMsYJfuBrY1IzTeaJL0zFt8DfRe/h30lZlVBbQaPKNWDa6u0iYOpJTRMs1P6MmrkNbQd8hIiYQpvL2iQ6lYlPk3n9kwMgnPw==
+ properties :
+  width : 776
+  height : 607
+  widthClient : 774
+  heightClient : 575
+ controls :
+  -
+    name : BTN_CLIENTS
+    identifier : 0x217bb8932d3626c2
+    internal_properties : CAAAAAgAAADweBTB8STavGI1BGMQG2GK5JhJRO+zO67P9b8ONIXDaUuhNF1BJcwdj8kHQ42O6yTxpEYnIJQuNpFIxzgUdDtcXtwwwSsHCSFQySRERYfnoDeAxd+FJKyHmdplOrqdA/WEWBgSJ+oulsPI/kd9u0wVCEfgX/Oflt2anz9JbCls+0W+QuNRnWqvBK3sp4YWDA3L/oAsuBUWPwiIf2BdEYeJjeD6Yvvw1PlBCbQuaLvdGTivuPXWN8aD1H86Wy9RV9Gw5WeblCinsVfpA9byppmJ5CGG2Li9l+wLi2RBTqASeFSMqTQPFsipo94J/UaDHo5kfZHHptyCQ5M5Kl7FkYlFZ9EXSIO4ZfgQVgSu7ZG/8vlILSQq4Y7FbNDL2T8fsF3Dvirn/5+3ELqF33CdHQfXcsKLTm//oQYLjNCWiYoKsACMG4gKJX8tZlKVSLcVfGWwUOt7lMtLdXIE7j71t5GZWP/Ij7c6adCj9Uv6Ylavqnv3E3uGDlcuHBH49HqOz27Jh4B7uurVC8L42v2nxS7w2SWcdox76icdvl8darPcUoQRgzdZpCaqY28kGjFHRsMPxmri+hqiBfbBC5iMgpO1UiCIzPNtwh0nNy03fttOl4xeQeB1f7aZ2EBUsGVUy99ybJGC/DkrNuAA3yfANeUXCJDRBqRw5Q4RO+PHMoxptAIHMxadOS6F6yGCHuCweM6UZ318dTu6W1WWTtE+tqHxAn7SQVaCuuLieu1BULLvMbrpvNndl4nXqI6+GSP3BOYGzBOhIs4xe2A4j2IvzWVNshouvuVebvoqEg==
+    properties :
+     x : 296
+     y : 200
+     width : 180
+     height : 180
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         FonctionNonImplementee()
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        code : |1-
+         
+        type : 66048
+  -
+    name : BTN_COMMANDES
+    identifier : 0x217bb8932d3726c2
+    internal_properties : CAAAAAgAAADx6NDCXUya+cDhEFq+hYM8RVgctL80ALKsHdBV0icM2vjvNmbSgz/TxojBslr5mOGyRmHRza71RVZq1srqiAP2BZs/oAU+DdT0dah2buebez7sJDX4r+tMp3MeYSlrGq5nK/bTcrC5itgdgzkyuWxM+fYMa30jySRDxuVIMSnI1+r0aGGMoVCMbAEV2zdYI9aNKRbGFZ6pkcbcFnMj9EZmk1eHP80NSXjwb7RRDfjuQz2RLx/o8kJKVgcHJFkmO7uzqKNerf7o9hJ0TPZkv8h2nZqAvJ/LuEEf5dFXDPuR2qx2F7O5h/k7gXQR1lJI/JvLMnpHaks+IiXkTGnaCQepCAdqp6GOcQybEBjmky+nEDxQU8qE6tO7wfqVHnIy8KeuNMKWvzlhcDaDCxN6RiyAo2j+DX5RA3jCllIIYHh5d4naCOUha3Wbcbo7Bk4LvyALQETU2QeRm/Uo8DC4RU5WQx2rEjo+eUB8bzk4QTiaTUSJIiLlbCXMY1uGiicIDOu8H+tKaVSLAe+YIpHcI/3/jsdrTWsPqtfWeMn/fzNXoTvRoEDSrPaiTqte9Czv8Vp62pWxG7DOof0pUW5zYBT2PazD+0C9JrFQf1WjzwNbnH0UNhlGC1K1S0LgEEq/wG7P8hVMUCw/R2QPAqK0H16iQbzv4bUVe1cgX4jYaTAMA64WbV06GpTOyRTyme75umAsQuNE+vw2DZQozfZcxIUKNRwmVqlDexNlTBkrbldO41kfSs+TNDjEyTyQm19YeIRYoWAaoHbK31LcRKrUvctcewi816hdrbndBlTtYEM=
+    properties :
+     x : 437
+     y : 200
+     width : 180
+     height : 180
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         FonctionNonImplementee()
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        code : |1-
+         
+        type : 66048
+  -
+    name : BTN_PRODUITS
+    identifier : 0x217bb8932d3826c2
+    internal_properties : CAAAAAgAAACk4URLNjJDGQKUWPVIvVHd6b92M4uGOnj0B6S0+0QAZ3NegnQ3prFUy43PXcgH0gcWBhMX1h2xsVNjATdsjrIQRmAfUU5WaGZ23LS/bzpQhhNSczcdX/CNmCALzNDu85sjC02PlAI55PbvFojXB5R8+pGC1lvxGSYvZMky/ToMlWPdG5xU+D+Hd6b4tdkAe+d/I3EtJAUJNilWh+5KdwHaA9cnjl2QwJQrCvvOSTw0mpGXXDLXIPcmrQLKlriarEwjF8Fm04JfkUuHF4vy/L4gyT9FHxMU0yH9p1APbrK8k/WyOQwjhrok8wInVFWBUmja6ieALVRWteo9+4U6qJK++DAUDYevkTCZKBM22bBVZrqCm5sjjKX9ihGAmDgszZt+8YVQzIS6bfndrVWjy29MWQtTl4hXpo3e1Csre4jEQoeZyH6Q5UrlRqeWeIgz0RdhnOCY6ybpCNIPJpLXwWAA8fWrYA/n8y1eDAwFhB8Lnabv+5UafKylQvbyVLq1E3YFbV2t6qaG+BHXHf0gwcHRg4JcYY0Fi7HkNhBcNJnR8VVZ9oPrVpVhIBrULaXhOm4VJHkqCh08LNQmPpxoNHZC8jh222bq4c8zkks2AW64exRkR2W019xAit9i4BNN9FX132UvxehTRgbkDdQu9pCRlGrFIev+f/BwmmMrCNhQW/Mswu41CySgA1uBJBIfzwx7TH4bCY8rTs75HCSfUzv+IrjLMwGdk1tT5gREAXVyQvYBmjx9qDDaDoYpFIFqVGlra7XswkfLfepf08s4OFQ8GBtIykwHcrqcYsRQuaRTosrtrpkkqu78DZ5Tn1tIPAYSCl8tC51rVi7rD0bfZvNs2DnWhXlcKwP1MYlw3rGGgFGV
+    properties :
+     x : 155
+     y : 200
+     width : 180
+     height : 180
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         FonctionNonImplementee()
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        code : |1-
+         
+        type : 66048
+  -
+    name : COMBO_ChoixAnimation
+    identifier : 0x217bb8932d3426c2
+    internal_properties : CAAAAAgAAADUXTRWx6buq3bqQBt4Dio80KhqaxneanFAi7QEY0R+D7yZpAhWRdObEZon2L+BOqqFwOlu8uOyj4ngvdYOj1tPj6pRNSsziBKwpRXuzelu8CUpdYD3J+ieYLdCqI6BKkU+/wjT6meg2KNom7F8XXe+F+3aC8MrrvM5YBFqjrLh1zF9i9+aXXzQo9zmaUTrg2K87Y0QHcoCFSlMYQkWI7bU1IUgnXeQkF08JENTMVmSbk1zM6a1tD3gRAJUrvbPM/aFZdpgDO8n2QPQnCrHly69Fm4g8sZZ+JTAMjEO1vMoVq2qBQ3I8FP9dPAKfNHV54cpHY1Qymjd7ySDIjUBg9T6quQ3rwYYtqFdUEyHjuMdqaky5HsqX3Qhr/rnJhphnBcm9i/tqiHhkUnGmN8wSnJv4XKidyB6Lwmc/c7HEuUiDQ8rZm9CimAyTcR1aFvjFRNsZfIrDNHNphWBtanfJlzpQDFURhCPvJTgM3/qcXtDIHsbv1Rw4c6MLufVDHOtmK08bVBx136UElU2EXMw9ju7522vX4GoFSlpswn19wbWFmxU9TmimzUYC7IEw0bFJT02healNuQ2Vp0sXMrAftb243+nXjO3kD5KMbVaAu1XCTbmVUDtmH20eeXkj2bcJ9OdpFjuuaAFTQ1Sprnt3y1fp3nKxobqyusJuw2aozcrR2WFGTKrmcrnfsQ7HqY55st0zQ9gJEQFkcB9B4zSCeugILkxxEdyK14fud/ydsw3Sunr2OptOBw+LuyhcQ30aTzb7OEyo0skQDJz0wE8v/fIZU6rVcmPeZUmG+9pArpzqUViIBWXuNtfwdyDnlqQ7oezXGjHivjj6T8tU8GWKCH7xHPRLKKL5kKeNUtbK1H5wgwF2lRRWX0/LdjQ9+PGNVlpW3Ot/qVdQYgqkd+HTAR/f+lunL2o7gT+SNzDSS41AJUsKiNvPXw83feclBATP/GHG6utDiXvO/bYk0u8Z3VOKGdi7xkoY7gaaSkVJKyLSgas3tqMVpXtGG5TntVXHYQfGdxM5NnmO79kzfKxxY8XuI6G0vJmVALqXN+kJ7QZ+zWbgvmSPzncglv0E6OCM/lvoqLui9jmpSGLxA6YgPhlt1C48LUutYU1N2SfpOmDYAjlL9dB4gOhC/IurehZCF0CZz44+wvH6ug7Y9eHiR0FiMSt4ufdFrySkWA2/DunSi/b4HLg1E1TCggoVrtFRaK413N8ur3AwKaByUHySDiIYaGDUz0IfhrLSYaFhC//79SbOihrByati76mKzNGE8iXqpgZDVJQxVw/wq9Q/4d8H7wNGJuZrhQ1pEbLIweOoK+vP53FF3dO9DwbXC+rrLNlhQRiWxsyVk6k8r7bvrd0OmrclX35pXwzZZRuBn42KCsFUmnmTz3lHapcW6i9KHiUgHOxacCTjXaZfkDse1i3vjnJhPqx2VsmQ2pxv1yN95Tkfg8fgK0HNZ0Jnktm3VwYqplcLealLxRVi1WFpFaezkmjiiDonoGjadDZgdTJPUhdlZhypYdl9P5wyFztyGfhPCKtSaBtcWqIIrnDFfT6qmolISynNZcoFMxEp9gNAhYYeTzAYbx4g7+HJIRlnqN7RDLGlGbeE4Pzc8xufcZtUBaznGThcS82cT6wemY5oBZh8YTuXguXSfW/pcVeIq/Wl6yR8Azgd6QkNx8iS0Nqic57FH2Til1YBLQ0zG+Ki7PORIslXHt+631Th7Ri+g25a5BNZ0xmf0w97P0BoJswz1xwd3fPN+tmEFBsFtBHgCdC+7RHwimkqDIAk8c=
+    properties :
+     x : 32
+     y : 29
+     width : 362
+     height : 24
+    dropdown :
+     internal_properties : CAAAAAgAAACZ3UXcqVUhbquccr0Cao7+fPNd9jc0KRAEfU2EXPFxVAvUEvaDqNqiL2L5FbR5iyiGuIxuuUq5NbZKHOF/BSdjYc/58iBrPIHVAiGRr9GF1mtBdE9axj2CX3bV02boSas2Ha5Z3kcoFYHEfoJfKb53r628h/+pPWtteK3UzgIF3wY3tN0Cw8TOC4apualHLIYy8KqU/4egY6di6m0vtRFj91VYUrgHQSBoOaGFdg3NgEI1LfNyyosOryhvr7ne4x7eOaS9LhQCpbq4/1RccgSssWQ7m+O++gyePvGEsvkI/ZIqbRnW7wzPqtxIus1p/RpNk70p8sml3B8ZkBV4P86H3kyDn3zq7OMow/Ocxo4spuucnPLoe0u2GDaZ8fTJOi1/Me19TPHi6KBbayIW43TmwQppVc/wrI0TloNRI/18A6yBCFAxlv7ozVWhCsaKjo8kVDr6q+xQqIWLemjjr94nuwT2IWw5045WMOmEGKReMGj8vyUMm6ZWSv7XoS00hnQWZMJ+EuZCrGkuw5/THjq/9XpaH9hZ7Us3PSybiqeAodaSGrOO6xF5LUEf+iHTinC+ReifALQG75MWG7aPwd2rQGBPv2yswGJ14JOSUMhJEY07qAaUwEDuYqtvYCwBS1kiG+Doclu0Py+BhB6dQobufz/eJxi+qfNX+hoG/VavNzO4C0/9WWcGJKdsx3bs3yTHCXQkvUim3rZGnp17ldhoOuuc5e4y1RDwCOPd76q9bAVqUij2tFotUlCqE3Yoa/Id1Q+P77h127E=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACJa1zXP62yllFqBwisp8ZfsevuLAZ3BwtJsIumiFVJSVtWmNilwnXhEvlPlkzyi5wBfNgUhlp5vc2UN6iFS8erAsrbLo7TWz2X6RGfI2VpuQgCe1IX1o0sJ3/E/wRk1AfWQhaMS864TALUdS4=
+        code : |1+
+         // Remplit la liste des animations
+         Listeajoute(COMBO_ChoixAnimation, "1 - Boutons vers le bas et fond en fondu" + glien(1))
+         ListeAjoute(COMBO_ChoixAnimation, "2 - Boutons vers la droite et fond en fondu" + gLien(2))
+         ListeAjoute(COMBO_ChoixAnimation, "3 - Apparition des boutons successivement" + gLien(3))
+         ListeAjoute(COMBO_ChoixAnimation, "4 - Zigzag de boutons" + gLien(4))
+         ListeAjoute(COMBO_ChoixAnimation, "5 - Flip du fond avec son et apparition des boutons" + gLien(5))
+         ListeAjoute(COMBO_ChoixAnimation, "6 - Apparition des boutons simultanément (groupe)" + gLien(6))
+         
+         // Sélectionne la première animation
+         ListeSelectPlus(COMBO_ChoixAnimation,1)
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_Jouer
+    identifier : 0x217bb8932d3526c2
+    internal_properties : CAAAAAgAAACD1eMJjEDCHzL+lal+9Cv7ycJsGIIUyXC2epw9wHz9lA7xt9J9ZVxrYHQEm/PccVQqUy7JUehMm5torjD4w9ZqtxMZlqoZ8CUVam2EfpokrCAi6l3N+zF9oKhm/8E5lZ/FMUUT1ZMxm6jTKCgLc+SSx6UspVP5I2NJ6Hb3G+V8RDV9f3ueqMLRTapUenBApfFKhiFVMLJL8rEua4itffVeNzPA5e5DSW2aR9GHfJCyY7sYwiPpb3Sqw2bqdNNP8Tr9wkX6+zoZqqEB2nUfZc+sb6H7lqXTTBMKb805tKlcJPDPxZ2tEqQGoBYtv0Erl+poCHUiud1HAb483F9TjxiSlKZk8wQ4Yubl9cqkoEDFXK6kj3a382RhCu1h5PqyKnKTP1PYz++uZSV6cLFfZZPk5DeEwlyK5Njh6X49hyTCVq5WWzmkZmxQiHGm/LKiwJeSc8JS0FoJWEYUDFMQAoI0+gt1MYEpakz5H0FVMDt1EOo+cWbiqt1A5jHyxNumyuwoaiDL1ZcyGoQAY62PGkCzDwgg9uCx9TlIVntlyTjaFvskCaiQElkIILNCgZ4YqAu7QYEYC4J2OqzolCf3asQ8NeJwBY+28uTeo0Gjc3gafhI/cxfASaoBojNRU8sFTQIue8vzlM8BeJjaD9P51xraEyWtlAfl7/IDSjdmsMZ0g1MtFsXBHOFZMeNyzyVNS9emf71iFo1sMOO7w06zcphyQOw0Uwr5E5tWg6TaEU/1RyWJ2D4GTqjeCj3eM6kH3S9uafyhrwvS3+eyrKPdDtuHhijMKaXj6C7wia7slhrKIFmsjMPRHYj+GhrYUJZMwe6hsm/GSJZXqvBpQLnMYpnvB7FhNfcT5R+SQx+ZDyqD4oMFFibtoouwi7BFSqfx90zmED4rIK41zatl+OUjBXs//CbSwfmuyiXz/l9E
+    properties :
+     x : 400
+     y : 29
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADn0eYtyVpggpswy14YY/AZ34E0YNhRMwejnu9k1AGH19VYDuz7BCmRrL+PgBQiVY7jHqKswBgY2qCv1vvqxkTmDyc6qQeaJgZWcKAaoBg+jE3fXnEU0XRl4vKDSkm/DTZnyzXnpGOixogq24A=
+        code : |1+
+         // Mémorise le numéro de l'animation
+         pAnimationMenuPredefinie.gnNuméroAnimation = COMBO_ChoixAnimation
+         // Mémorise les procédures
+         pAnimationMenuPredefinie.gsProcédurePrépare = "AnimationPrépare_"+COMBO_ChoixAnimation
+         pAnimationMenuPredefinie.gsProcédureJoue = "AnimationJoue_"+COMBO_ChoixAnimation
+         
+         // Réouvre la fenêtre
+         Utilise(mafenetre)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_INFO_BOUTON
+    identifier : 0x217bb8932d3926c2
+    internal_properties : CAAAAAgAAACY9Q7ixx/D7mNU3WTJwpgbXr2cYOo+aoTdQbYjVb9K7JyFs2ckozMBt5HpOllTM5hStsMtrURqZV16cgEmpFqHki7KkQbjp/b17sM8b1nZfIIuaAliOn6gyQYUS9JRXvkjfTZnLUFGroIpdZhDtLKK17MuzHuisBpOyz1Q0jdbkdz2MGnxXN7vT6buHKsNzoS/ZZi3jHna/5jbTdw2CYedb6Fx9rM52KdLEXJ4/Lfsu2C1QSioy4A6qRjNLKLQQYSS3jHA3vp58sYaAc71cF63o/50GMlVveZtWt5PnP2vYeSbWVybZTf01yUnjHtZ/NfB7V7HRS+iebIxxTv+eC2TDTrlNJFb+L2o59/T0yRNg/ITSpUOw+V+gAAeV4ogWaGsXmu5VqvT/B8EO7gEz2h4Oy8u4/ohUZLG+djb/2Vc49vxSVSllvuZNnNSIwwZbC34P0sFPQ==
+    properties :
+     x : 155
+     y : 470
+     width : 462
+     height : 36
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Interface
+    identifier : 0x217bb8932d3a26c2
+    internal_properties : CAAAAAgAAACtBRg0RXJmRrhogfyY6slAhvQoAyVGxEBewJZsqyhesqHIzI1N4jOz1r2jZKJTSTWbawuOtN7IWOKRAP0CIb7e3kkoF42JjWtolWf6Wmeh+AWxKnVxArc5t6D63Mlbr6qreOoTQzBHZfJKakdJx53hu0mloHfqmZsYYqYsVivtyMMsAdM88xf0j0J5xazYPlQKJwmLD7nXcpZACyWRCcgP8zpFx4G0yuz+IIBW0ed8xfJPYr78wZVQoygK8GFmcix2mIGvt3QgapnJ2HF9WgMhWm90/vTAnPems/HwbpHNMqtzy3r0WpGiZ2gJkELRmARLbpuJBZgiqguKgCjwBuJ9unyLWOzpuGdTGxNbWQPyXZHE9yQY+9axZE8AzvZ9UkTU0gQiLMcNi7sKCPbSnRDcEyJppYA8pBjEAcWyv0FfQ23WTiOPv5ZGQj60+2MWVVRfZm2FW5km8wpTf2l4rrhWbwv5pxYVwjZn6AanO2vhWUBg0FWjI3jwjo4fM6OysCMoNxGMVh4/dy31KRPN/Do8dX9a0mLUbeLOh+sy3Scw9pEXwhmgrD3dXmx5KhRebnpdIymfv9SSej2a+VUNCYhnrO8AZwAMc1UYrcefrbmG5vqVHr+JSqY5r3Jp3vWXvodH76bkTmqeQz+agStB04pB7kgdmAkHatWFuNoXLAo+XQQQzZrYbWXm92/dEXrPu5560W5D4nlLI3ExMXWJE+wvM9fMrMQ82SDPJUOpBP6FYg3bbKTeZtjg+oYBcbWpVOlUzZSp+BJ70dBEHKKV4Ng9G7X9x3qUWKeHvw==
+    properties :
+     x : 5
+     y : 86
+     width : 763
+     height : 483
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2a1eadaa43766299
+  internal_properties : CAAAAAgAAACPjLuTHPR5lZ7fwgC0Bxc4S212P4swEKBaDcMODvdW2iZkxUXRCyFmtPq1bH1yHHT0RdTUU+8AfXYHrH4s7A51rR2oT+a5InOItTsriW4oGpOTmNfU0GSeN/jcVvwvE7ROh9NcdqHqHsMCGr/3hK4U72YXRJSXSfGut2betrLZ9k1p570rsaosXQoNAcBzEUHzcoPeVgZqCH62NZRdN/TrYdOQVNQNG6ThwIT8TXhj2kA3epiEhFpGDs+0hD3TKdZiVoEh3cMOXUYKvoMDcpUmWlLWYMDzTu5tvOuYaeF/OQ8OfMJyYO5/
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD5EGh+DSG1SzNVXvcDXR54QFSHnZbx/tQzVb0gK8VU298u5VizqnME1KO3JtsgyH926xm0z8gWvuGJDcObG0HKeevBV1p/7nPNiOB1DXvGZQ==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure FEN_Proposition1()
+      
+      // Préparation
+      AnimMenuPrépare()
+   -
+     internal_properties : CAAAAAgAAACRY4darUMfpv/8H/o8B3g5e80MPChtk5MHKjuYKKXvd3E0luDb+PnNmDMzNNDeJU4fKooAEBT2GOqRNIkETDoYcfWI35nIzLyQUs4YGh40vq+d/Cdut9r7fBxpABv9s1gJeWslhuBiDqm8bTY=
+     code : |1-
+      // Si une animation est définie
+      SI pAnimationMenuPredefinie.gnNuméroAnimation > 0 ALORS
+      	// Positionne la combo sur cette animation
+      	COMBO_ChoixAnimation = pAnimationMenuPredefinie.gnNuméroAnimation
+      FIN
+      
+      // Lecture
+      AnimMenuJoue
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : AnimationPrepare_1
+     procedure_id : 1259803462390261442
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Préparation de l'animation 1
+      // Syntaxe :
+      //AnimationPrepare_1 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationPrepare_1()
+      
+      // Positionne les boutons au dessus de la fenêtre
+      BTN_PRODUITS..Y = -BTN_PRODUITS..Hauteur
+      BTN_CLIENTS..Y = -BTN_CLIENTS..Hauteur
+      BTN_COMMANDES..Y = -BTN_COMMANDES..Hauteur
+      
+      // Cache l'image de fond
+      IMG_Interface..Visible = Faux
+     type : 458752
+   -
+     name : AnimationJoue_1
+     procedure_id : 1259803462390326978
+     type_code : 14
+     group : 3
+     code : |1+
+      // Résumé : Lecture de l'animation 1
+      // Syntaxe :
+      //AnimationJoue_1 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationJoue_1()
+      
+      // Anime la modification de la position verticale du champ
+      AnimationJoueSurPropriétéChamp(BTN_PRODUITS, "Y", BTN_PRODUITS..Y, 240, 50)
+      AnimationJoueSurPropriétéChamp(BTN_CLIENTS, "Y", BTN_CLIENTS..Y, 240, 50)
+      AnimationJoueSurPropriétéChamp(BTN_COMMANDES, "Y", BTN_COMMANDES..Y, 240, 50)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre,IMG_Interface..X, IMG_Interface..Y, IMG_Interface..Largeur, IMG_Interface..Hauteur)
+      // Affiche l'image de fond
+      IMG_Interface..Visible = Vrai
+      AnimationJoue(animFondu, 100)
+     type : 458752
+   -
+     name : AnimationPrepare_2
+     procedure_id : 1259803462390392514
+     type_code : 14
+     group : 2
+     code : |1+
+      // Résumé : Préparation de l'animation 2
+      // Syntaxe :
+      //AnimationPrepare_2 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationPrepare_2()
+      
+      // Positionne les boutons à gauche de la fenêtre
+      BTN_PRODUITS..X = -BTN_PRODUITS..Largeur
+      BTN_CLIENTS..X = -BTN_CLIENTS..Largeur
+      BTN_COMMANDES..X = -BTN_COMMANDES..Largeur
+      
+      // Cache l'image de fond
+      IMG_Interface..Visible = Faux
+     type : 458752
+   -
+     name : AnimationJoue_2
+     procedure_id : 1259803462390458050
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Lecture de l'animation 2
+      // Syntaxe :
+      //AnimationJoue_2 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationJoue_2()
+      
+      // Anime la modification de la position horizontale du champ
+      AnimationJoueSurPropriétéChamp(BTN_PRODUITS, "X", BTN_PRODUITS..X, 124)
+      AnimationJoueSurPropriétéChamp(BTN_CLIENTS, "X", BTN_CLIENTS..X, 310)
+      AnimationJoueSurPropriétéChamp(BTN_COMMANDES, "X", BTN_COMMANDES..X, 496)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre,IMG_Interface..X, IMG_Interface..Y, IMG_Interface..Largeur, IMG_Interface..Hauteur)
+      // Affiche l'image de fond
+      IMG_Interface..Visible = Vrai
+      AnimationJoue(animFondu, 100)
+     type : 458752
+   -
+     name : AnimationJoue_3
+     internal_properties : CAAAAAgAAAAEwHvnSNAOqia4cdgxL8c8XCeMEVLTg5JZ44pnIYKVM1NtxVrxSUsWphuRy7RtS3EoO/apvjlFlQQKTZiOyXLrgjhF1fMW6OfPgdKw7/gV8zlnqg2DiWyyDQ9mTpg7mUWuxhpj4iDYtrvP/o9FOVLsMLdoYMy6laPpQaxQAEDiwNHSN8wD9wJY8zXbv/9ug4lz9N/tFkCX
+     procedure_id : 1259803462390523586
+     type_code : 14
+     group : 3
+     code : |1+
+      // Résumé : Lecture de l'animation 3
+      // Syntaxe :
+      //AnimationJoue_3 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationJoue_3()
+      
+      Multitâche(-20)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre, BTN_CLIENTS..X, BTN_CLIENTS..Y, BTN_CLIENTS..Largeur, BTN_CLIENTS..Hauteur)
+      BTN_CLIENTS..Visible = Vrai
+      AnimationJoue(animFondu, 100)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre, BTN_COMMANDES..X, BTN_COMMANDES..Y, BTN_COMMANDES..Largeur, BTN_COMMANDES..Hauteur)
+      BTN_COMMANDES..Visible = Vrai
+      AnimationJoue(animFondu, 100)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre, BTN_PRODUITS..X, BTN_PRODUITS..Y, BTN_PRODUITS..Largeur, BTN_PRODUITS..Hauteur)
+      BTN_PRODUITS..Visible = Vrai
+      AnimationJoue(animFondu, 100)
+     type : 458752
+   -
+     name : AnimationPrepare_3
+     procedure_id : 1259803462390589122
+     type_code : 14
+     group : 2
+     code : |1+
+      // Résumé : Préparation de l'animation 3
+      // Syntaxe :
+      //AnimationPrepare_3 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationPrepare_3()
+      
+      // Cache les boutons
+      BTN_CLIENTS..Visible = Faux
+      BTN_COMMANDES..Visible = Faux
+      BTN_PRODUITS..Visible = Faux
+      
+      // Affiche l'image de fond
+      IMG_Interface..Visible = vrai
+     type : 458752
+   -
+     name : AnimationJoue_4
+     procedure_id : 1259803462390654658
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Lecture de l'animation 4
+      // Syntaxe :
+      //AnimationJoue_4 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationJoue_4()
+      
+      
+      // Déplace le bouton BTN_COMMANDES
+      AnimationJoueSurPropriétéChamp(BTN_COMMANDES, "X", BTN_COMMANDES..X, 496)
+      AnimationJoueSurPropriétéChamp(BTN_COMMANDES, "Y", BTN_COMMANDES..Y, 240)
+      
+      // Déplace le bouton BTN_PRODUITS
+      AnimationJoueSurPropriétéChamp(BTN_PRODUITS, "X", BTN_PRODUITS..X, 124)
+      AnimationJoueSurPropriétéChamp(BTN_PRODUITS, "Y", BTN_PRODUITS..Y, 240)
+      
+      // Déplace le bouton BTN_CLIENTS
+      AnimationJoueSurPropriétéChamp(BTN_CLIENTS, "X", BTN_CLIENTS..X, 310)
+      AnimationJoueSurPropriétéChamp(BTN_CLIENTS, "Y", BTN_CLIENTS..Y, 240)
+     type : 458752
+   -
+     name : AnimationPrepare_4
+     procedure_id : 1259803462390720194
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Préparation de l'animation 4
+      // Syntaxe :
+      //AnimationPrepare_4 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationPrepare_4()
+      
+      // Affiche l'image de fond
+      IMG_Interface..Visible = Vrai
+      
+      // Positionne les boutons de menu
+      BTN_PRODUITS..X = -36
+      BTN_PRODUITS..Y = 240+BTN_PRODUITS..Hauteur
+      
+      BTN_CLIENTS..X = -36
+      BTN_CLIENTS..Y = 240-BTN_CLIENTS..Hauteur
+      
+      BTN_COMMANDES..X = -36
+      BTN_COMMANDES..Y = 240
+     type : 458752
+   -
+     name : AnimationJoue_5
+     internal_properties : CAAAAAgAAACvldS7sLkgUoFzL/FlXwNW1UAIFpcAjM0YdvLAZeckrS5WC69Nzs/+Vf/WonjkpfKooirO+UFh95Caif8hv60kIS5IRtxwzwB45YhuD+hdG4sYmfr06dFpHO8fMPyLvDhDdPlQmxhpwtETA1eXP8eLgX0Rnx8GfAPXVQ0SWIqje0PcRO5Rc8rQjaKyu6ZuVex9ZERRrmK76s7MzRAaTVqNogB+mRp9pU4mqxE4f1MEjKNwnA==
+     procedure_id : 1259803462390785730
+     type_code : 14
+     group : 3
+     code : |1+
+      // Résumé : Lecture de l'animation 5
+      // Syntaxe :
+      //AnimationJoue_5 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationJoue_5()
+      
+      // Pause
+      Multitâche(-50)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre,IMG_Interface..X, IMG_Interface..Y, IMG_Interface..Largeur, IMG_Interface..Hauteur)
+      BTN_PRODUITS..Visible = Vrai
+      Son(fRepExe()+["\"]+"flip.wav")
+      AnimationJoue(animFlipDiagonaleDescendante,50)
+      
+      // Pause
+      Multitâche(-20)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre,IMG_Interface..X, IMG_Interface..Y, IMG_Interface..Largeur, IMG_Interface..Hauteur)
+      BTN_CLIENTS..Visible = Vrai
+      Son(fRepExe()+["\"]+"flip.wav")
+      AnimationJoue(animFlipDiagonaleMontante,50)
+      
+      // Pause
+      Multitâche(-20)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre,IMG_Interface..X, IMG_Interface..Y, IMG_Interface..Largeur, IMG_Interface..Hauteur)
+      BTN_COMMANDES..Visible = Vrai
+      Son(fRepExe()+["\"]+"flip.wav")
+      AnimationJoue(animFlipDiagonaleDescendante,50)
+     type : 458752
+   -
+     name : AnimationPrepare_5
+     procedure_id : 1259803462390851266
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Préparation de l'animation 5
+      // Syntaxe :
+      //AnimationPrepare_5 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationPrepare_5()
+      
+      // Cache les boutons
+      BTN_PRODUITS..Visible = Faux
+      BTN_CLIENTS..Visible = Faux
+      BTN_COMMANDES..Visible = Faux
+      
+      // Affiche l'image de fond
+      IMG_Interface..Visible = Vrai
+     type : 458752
+   -
+     name : AnimationJoue_6
+     procedure_id : 1259803462390916802
+     type_code : 14
+     group : 3
+     code : |1+
+      // Résumé : Lecture de l'animation 3
+      // Syntaxe :
+      //AnimationJoue_6 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationJoue_6()
+      
+      Multitâche(-20)
+      
+      // Prépare l'animation
+      AnimationPrépare(MaFenêtre)
+      GR_BoutonMenu..Visible = Vrai
+      AnimationJoue(animFondu, 100)
+      
+     type : 458752
+   -
+     name : AnimationPrepare_6
+     procedure_id : 1259803462390982338
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Préparation de l'animation 5
+      // Syntaxe :
+      //AnimationPrepare_6 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimationPrepare_6()
+      
+      // Cache les boutons
+      GR_BoutonMenu..Visible = Faux
+      
+      // Affiche l'image de fond
+      IMG_Interface..Visible = Vrai
+     type : 458752
+   -
+     name : FonctionNonImplementee
+     procedure_id : 1259803462391047874
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche un libellé indiquant que la fonction n'est pas implémentée
+      // Syntaxe :
+      //FonctionNonImplementee ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure FonctionNonImplementee()
+      
+      
+      // Affiche le champ indiquant que la fonction n'est pas implémentée
+      ChampVisible(LIB_INFO_BOUTON,animfondu)
+      
+      // Pause
+      multitache(-100)
+      
+      // Affiche le champ indiquant que la fonction n'est pas implémentée
+      ChampInvisible(LIB_INFO_BOUTON,animFondu)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x117bb8d406bb25b4
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_AnimationMenu_Prédefinie.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

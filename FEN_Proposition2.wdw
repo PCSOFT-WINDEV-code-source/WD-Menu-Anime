@@ -1,0 +1,1306 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Proposition2
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Proposition2
+ identifier : 0x217bb8a92d5a7c83
+ internal_properties : CAAAAAgAAABTjQtxsZzPVm0nqLyD/4ClrEsDUCSqxBFfPfV3B0ofguVC15quIOFvFfTT4ugE3PvvaPYifhOtMHFSfK2j1r13PrpoEEmnHBf3ilx/9lLW5lcoV5Kkk8JUBtpQJwwmB77+ujTSLczTsYtAfxu87rVsJimGkc8sN45SCRStFGWTVJEgbJ6XlW70MPN9X/E03SIlCSRbw83E68RSQGlWYM+DlcQhzVXe/S5nB/zYVi9W14BYdR/GoG4SrLVk3rBEAvuCP2IZBaz4URy2T3/dgwXaLMk1zuq4BKf9rEkotFq9ZD5qGj1jnn9S7zH49MVysoOwlSibvUWv/hlMa5yuAkH7kew+uu1+QHwhkIqeyenjb27Ew0hd8k1tngK2ZwWYF/qy+G/WOQQCzrnILgiBtv4KmhL7K//WHoPHuAmVXIcin/u+336QomnZlTsTTs75XKwO4XbcFNWMmm3EgSGYJUska3vueXfncUwNSKgfqULB21hTvvLEFlLI/RGpw+0JJcqJqdIIEXURRYDLnU20OuzkbU7LtDAi2sVYDKQeVkQzxI1D1PE5X/HYo5k5zQhtlohG8u9kA+ipgL0ITxv/7JNMZKMshJ0OVMPj/8/1xqIaM0BIERgZQw4K82asBHojnbT7nnItunCk+qOTTQKe/rG+TnlLCoL4AqsxYTmHAJsQ0A0ADKr+dmo676KD+gfKNfa4V+xaVSevjNTf5wWxdJV6vDXhV3UwRxrkqL4JDaFBZLdWz/0TuUGUznPijCg=
+ properties :
+  width : 786
+  height : 527
+  widthClient : 784
+  heightClient : 495
+ controls :
+  -
+    name : CMOD_Menu
+    identifier : 0x217bb8a92d5b7c83
+    internal_properties : CAAAAAgAAABnhjkWN+ub8Zxa6SU8tlRwQWWa5vnBiwybXLOU7IsE7csBiQfUuYwGxsHS7j0ZOF7pwd+YPTl903tadQWAR+IK/2rlKVegXYrcWmwaj2AP1xPWEofzUlsuDvrvM2zBgKpJE2pOB7Uv+Lp2Czm+mvvfuZ6lPhUPasgxFOyGWzlLacbu/B2t6nbBfn5udLl5o3l8ylVK+mReCCM0bexsmRTlq8Fg4JO+9QStGa2dzPJ/xFaB6IVMoZU+n80hKrcp0yomZOGMUqHs6rNMm+GPhAquf3hEPEOtr51PDjWY5e6y/Bz3g1ysmFRrucMdgqbGSFp/jfnC4WFcjkzjyibBgYbdtXx4kle8d61ig/FNzqn+qVEs7EMAAKDA5k7GoVrY/ubCOtMqViXvYuQ1edykuUWN4tnFHYS36g60TJi5buLqPFU7NAlDDcAhWJDJOI13iGMLogxjD+FlHZf4OikxFyOAGhfMrOYg7Ss+/BVGoMoBY/bE2t9Hcomv7rcXcF+xJAxgp5tsALZd1f1gQUdoi+L0oGdGESl3LEf6y4w0ZJ52EjeyvXwJG/tPWPkEFwulN6KNDvqiiz5VMrrlAeDIHNlzVo3JVxr9nuL3SZRaIBENiQLfM6aPeDUNKyGiEQkQS244Dw/jlGDjXkdP7AnWukO53AlLXSHy84KTjekvh7agC+kJRt39qc/a204vgc047gGE8Voj622nVwurg1q55yzGWCSvfIo83oxEFUzdvtIdrvis03f7CoPgaz29QoCYCAFzaYehc5BwiJBPqAsLjkIx/Yzu568aDXs/NAiHb/nksP2Zt12PqHujbjVJQsptueFBGfG3vedLqwTesW/SUHcSsmOA+09CUnpw5+vCydr4KL/F+bgkCPPxvrVbAA==
+    properties :
+     x : 19
+     y : 19
+     width : 743
+     height : 302
+    controls :
+     -
+       name : BTN_OptionACloner
+       identifier : 0x217bb8a92d5d7c83
+       internal_properties : CAAAAAgAAAARo1jAqAhV9WxcTJ0PAQVt+/PNfpvvuA9GsHcZGQddNrwKPd+G55iw+dvns4mva7ZdIR0Ch8cruvBUTWAAQTIBfA4EHGt/c4ONlUPeW+p1TIioQfqTAXsuHdfvQkKy0YBf+TskMBAj2WtVl9wnzc8jSth1aD2TN+R+lELq+FFgJBsOyXB/ntEoj3hS03c7/Ecr3/ra8KSdaU5F+b4MLBh3lyYXs+GhUjSS+lhRTt8HUC+UtOqlPX2jvUXLHQ3bD+KBzVXBAAR2eqyIhUutxIdo7uvOXU7xnFRj7zn1+x4CRMDHRjtYEaV7SeeUWpiJdNMSbPr+Y4N9jDNUUpCRpXvPQ8T2vQv8ajiMf1grRK57dzUXuWw7tjpwpmwoqf6imxRtNBMczAeOyuRYjrTUZD4qODwJ7AGnCHuW/bh0hAiUem2u7vf5WPr3SSxreNaEaA7fThFWqNszrpKGNiLuPp9ByUWEdg6vudxaVY+GumX98lC9wgvZEW80KOdIyYAHWj8kTeRuZEuWiz7k0dOKIh7k1OwYo+hPjNIxoQPVW7kPUAGvEhoYlyDwU/f4qDxvsJFG+5wykL99hOm1QQtBxnMgxlIUFOfePn0dLSR2tDeo6joU2MIT/KnkVfmi+QG31IfaAgMd6NoBBqt2bGPAVxa8DJjZ+ru6WfEjj9jTwMmF97jNW2GpN4w+kkewAi31iVaOostK9KThwMCQQxLocAYL392P8yo+1UQl9WhKFrelMCXp8NPbBrNmzpzyZz6CRPo3r5AcQmdYKBGKpMp9CPUnjRk0uTCsjBWXaxas3w0+9TJmzpw3uBmt85N+xouxB0EzfmEn6VDIVyweHUNrSUtkvpaqFcmk6DRvvRsePPxpEYjbkW0KBYYLk5IleCQTJ85A7w2uGOpFej5D0s75AWtbgfz7YQLVUDRPGkaxiisIM6JntD07t1LPxck3DfzpuYo6TB1/K4K8yKFFqnvczhQ/I4jX/tOCTkLH4hbgMQt24d7AVtFFNLnUi/RI2pcES+42hdDnPDmH4OSSysZa8WGnLxKnZs+y516hG41XWzbKg1oHr6tVmyli1anw3GwtQ0WIu8RKb42X0dDsSE938HQpF5oJI0UaOezupIb0asCTu46nKfBxIiApCzCUvMGFf0e7T8phpl95HIouFVA/Bi/eNkp5iVMOJI9Xp4ZU/SpnRZt9FHaMLG5KOhRcJYuvNTLU98kJmL7oXLlLFRJZtu1TTdmJ/GAL1Jl9hgwvaF1GgZJH9gq3QFxXS/hpf3/KcJsURjoFtrtHjPt5laPTs9S/8MxyC6cSezEba0N5d5U2uOgRDXjnu8Vj3E/Uj1jEVRlN3v4mJjGuO0d/IkhBFKqneyDGV01fA5MB+oMs1PB7CvqQJySWZccdspAjxghpo2kCUFM5YtpQJ7hyQbvvIQ6xk8+2H8ElFOSNaHLr3oMbugJJdMHaLnogaP/ScY+CqCxnVb175MDk7TfYMtI6jBVZy9qRSnYaqAIe2Ykni1dmWnk+gvUxuX1Z/kNa0FQec0y0A9ZVMIVGcKDRf2slRIP+RBdQ7gTxS6A42DsHHnfXBvOOUUSw4nrBNquFG4Ep31o7NoSFZ/kcMW0mCZPcFT7tsMyqE74RSSk+78XIcIzQCR9GxdZ1ei61CAG9IaMDj3b/dE3bNRN4CiWgK8h6Vj88o4cMD/SvH5nS+Fhuig==
+       properties :
+        x : 188
+        y : 84
+        width : 523
+        height : 64
+       type : 4
+       code_elements :
+        internal_properties : CAAAAAgAAADA2wmnF+/eA97AH830ToU7L2feY76EtwffNy1xLmdqUvtdbFVkT9cPlZUahUG3Ilv48BQfLl/WSgc/J313KczqXS07R5JpH0TIsPLNxM7dTTSrqBFG2WpM5ImB
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            //Exécute le traitement défini dans le modèle
+            ExécuteAncêtre
+           type : 14
+         -
+           code : |1-
+            //Exécute le traitement défini dans le modèle
+            ExécuteAncêtre
+           type : 18
+         -
+           type : 161
+           enabled : false
+         -
+           code : |1-
+            //Exécute le traitement défini dans le modèle
+            ExécuteAncêtre
+           type : 66048
+        templates :
+         -
+           name : BTN_OptionACloner
+           identifier : 0x1543d0a9025699b1
+           code_elements :
+            internal_properties : CAAAAAgAAABq9O+sk4WbNlns4ThXFkNgwRD1cLbdL+P5pb8NyOrnMwTsEkR0BqJsulJjeekoVZ9+QQXrgTPdSBKzLgu/qHCjyFhSF2KObJYf2FK28abl6rcemwNnqkva
+            type_code : 4
+            p_codes :
+             -
+               internal_properties : CAAAAAgAAADRo7T/86SFxlHa93jMx5a/Mete/EbXt4sZEAtGmMXpeUtm2PjV8nWxUomfpsyyW3whXEgExnpBlZW8P3ANI98DKiIjVnZrA1X/sZkHCx0hsVAaY3ofznVk78fsJ2ycLN8+Gh70k3FUFNr8LXY=
+               code : |1-
+                nIndice est un entier
+                // Mémorise l'indice correspondant à cette option
+                nIndice = _TrouveIndice(MoiMême..Nom)
+                // S'il s'agit de l'option sélectionnée
+                si nIndice = gnOptionSélectionnée ALORS
+                	// Exécute le code de clic associé
+                	_AppelleCallback(CALLBACK_CLIC, MoiMême..Nom)	
+                sinon
+                	
+                	// Sélectionne le bouton
+                	gnOptionSélectionnée = nIndice
+                	// Rafraichit l'affichage
+                	DessineMenu()
+                	// Exécute le code de sélection associé
+                	_AppelleCallback(CALLBACK_SELECTION, MoiMême..Nom)
+                	
+                	// Si le menu est en mode "Un clic"
+                	si gbModeUnClic ALORS
+                		
+                		// Marque un temps de pause
+                		multitache(-50)
+                		// Exécute le code de clic associé
+                		_AppelleCallback(CALLBACK_CLIC, MoiMême..Nom)
+                		
+                	FIN
+                	
+                FIN
+               type : 18
+             -
+               type : 161
+               enabled : false
+             -
+               code : |1-
+                // Exécute le code de survol associé
+                _AppelleCallback(CALLBACK_SURVOL, moimeme..Nom)
+               type : 66048
+     -
+       name : IMG_ImageOption
+       identifier : 0x217bb8a92d5e7c83
+       internal_properties : CAAAAAgAAADG+8T42lkCLlEEEVfouqWb2AiOSAMUYZhkkEQ0WjRApZhGpnyKRQIz2C1YdNCtJ5//HRrdSAUscvAT4C0pKvRRlUVgEFIMBQGZrOpmt55L5QyE8NoGTU1GH8i8o6vkptzwT2cBWArg0jchkcFki65v+cvdy0GY7ibJGJ/G+jyqHsALabDvymLYPyb/2n/s7/09hJa4gBuWl8wshCXhIMhibcb+m21IEG5l26//JWfaotLTNrR8Fe/3JEEedcEV44foFQCEp5s9kBvULt7QvkC74AEKYa1w/W3aKKXLMlshwBpQRALQLmCGuXHEGRBDJw/t+aHeppFySZ6/qcxxQmVkXdUEXUCJj3rSVWn4emM6gs+bE5FgtGCThvNMAhOGmA68djBGC4dxlYRFjlbEn472WESn3j1B34zRshDJ2KPEnHPRM3oolbj1SV+WNU1YD6gAWGqytQrN3jRf+TISLnKl6jC2srSMLuLRynjxpzEQcdpZ8fjqpu1UxFSsff25rmIDIyhFIXvYKy6eCNSiXtnktvsKVtTxbkF4jPKz4/8Eh0RCGxUm3bCRt26LMQ6F+BZemWc3UjaMqiKObA7qWZEBTsQX/LN3r+HhwSlIGeo/0Mht/Z6dhAN3j9iux5B2kBBajDi6VH5nmy77fDFIz2NX3xP37hnYouqiltHyf1bt/eL6LDYXxbzo/wcUBaH/nv5YL+T3kx+AE2IvuKAhG+keRAjKVsRff3aFgfyKEWbtMpq67LyNpSoOfEa7gpXAOdv2kRDwCHGA1eID/rSfCzMOmuV5zYFN3dq5anO1RuWi1mwDMWgRb5P670iBUn7xwmnMAjsVfmHqkn2xKwDz7Zyz+v0dyIHEOkM0YpcmmSbTQrRl5/gDDeTaZ8toVR0Y6cLt0wWHUiOK52UKUxUmarDIZwNHTEfhCH4Nlta8fQwLc55dSgJYTG5k3LRAVTuOS/QArI3BGPJREjuxIRmpswLv4eKJ8CmRn8oCgtgbdnG0Vx0JGI/LowBf2htN0SErk3bQU21h9j+rnatfYvHGZQlaJ+4FeN/6NvBW0A5z6vaBtD6202blbcalS1fabTbmR+0KijL9zd/4weTuZC8M3ybtHr11irshGfy67YzJYOFuykAVPom/oE/KbKIapxcsMUnJF1N7rU2BvWGKDHHtufIdJBPA+TY+LbV4UYdEe1Rn3J46oX89e7nuMAVx0NotutU1IB+mjmUdjr0BAkDef9mWqVOjV6PZtNfgMN21xPkYutLGeLYwvVjvsqu/4SZVgn0WJl34SHNpZmtvdaapPW5h8rsl656pEXoIvIXpp0miLGkbNuFYoXYIZkQObm0QqDEZ3BybOEwgzvFLm4lvVV2rWgb9xjp4HmDXG3YfeW579KpmDoc51SRaauDp1/c0KTWXZEzm/TX39SY4t4CdZg8OSHBEpa/KLXGa3mnXgZw4Immm0O4caOVDbxfgQH0ZyyaxHssHwBsnpnWXSmsy+Ffy1C+ENDa7UhHELE7dNRorgoCQxapxTKUUr17ykffzSTNLhhoDrDXPlVffM6yUXhzOZP0Flb2vIDNRlRMsI4xbf8lqPULZc23xPtZZMlVgk6Y9YOduHF8PJ4rN0RpdOgvPOxEXtCPcoGN/1TGgRmhfF99m9GNlNMa5wTmX/kIAv6xiX0fWgx+iITtOOkzpEHaZRwEfi8oQRySGVHp3/OMxOy3pJQ==
+       properties :
+        x : 264
+        y : 110
+        width : 100
+        height : 100
+       type : 8
+       code_elements :
+        internal_properties : CAAAAAgAAAD3EURZfngeuwi7Fu3cxaydMmHmAQEsnjyo9Gl/ElSfeSKasrwe/Gj0WgqNixx9oFKVGA7yCkIeHQFSX5oOeSHSmakjxrF/W4cM9X9BRHOWGUSjEJ7aP+Z3
+        type_code : 8
+        p_codes :
+         -
+           code : |1-
+            //Exécute le traitement défini dans le modèle
+            ExécuteAncêtre
+           type : 14
+         -
+           code : |1-
+            //Exécute le traitement défini dans le modèle
+            ExécuteAncêtre
+           type : 18
+        templates :
+         -
+           name : IMG_ImageOption
+           identifier : 0x1543d0a9025799b1
+           code_elements :
+            internal_properties : CAAAAAgAAADHQRRJbmhuq9hrZr3MlfztQpF28TFcrmx4pLkPAmTviXJKwuxOLLikqkqNS4yN8CLFyL5CupJu7dFib4o+KfEiSdnTluEP6xecRc8xdCNmaTSTAK7KD7ZH
+            type_code : 8
+            p_codes : []
+    type : 43
+    code_elements :
+     internal_properties : CAAAAAgAAAAED8d4P8YoK8bMzkjKftjKZEZD1b2ZRi8vqhvgYkUUj32ag5XGOM69oTjPZQIFCeMD9RRVj3HktJdr7gZ6hPHQrWen7yA4hRBL0/Uo57qTNERzwk4tWc1WHA==
+     type_code : 93
+     p_codes :
+      -
+        code : |1-
+         
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 15
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 16
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 43
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 42
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 17
+      -
+        type : 65541
+     procedures :
+      -
+        name : _AppelleCallback
+        internal_properties : CAAAAAgAAABcNV1OOzrrYYcqVm91FAWMrzbNythhbl38WP0baHpbHh9RZcpHobhYNWgV/PF2mlCPKgo0isu6g6fqUanbCkE1/M7qahI4UgGTtDOASPU99GoJnM2Jgr9T9OSenkcnVY2vBxms7OA5pvdG5CdcsHhWCDAzHAwbIiOJczaMuQ/o8SFiY+H6P1gXK/95V+GNwcXr7tk0p58DEfguU/Oh+/9zKFxTjlFR2Lw1gMPHUmrPY/cbUcDB0OvrKnh9mY7AbjnH321NW2f2Q2QR9qO1MYs=
+        procedure_id : 1259803556880546947
+        type_code : 14
+        code : |1+
+         // Résumé : Exécute la procédure CallBack associé au type souhaité
+         // Syntaxe :
+         //_AppelleCallback (<nTypeCallback> est entier, <sNomBouton> est chaîne)
+         //
+         // Paramètres :
+         //	nTypeCallback (entier) : Type de la CallBack (voir les constantes
+         //	sNomBouton (chaîne ANSI) : Nom du bouton concerné par l'appel
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure _AppelleCallback(LOCAL nTypeCallback est un entier, LOCAL sNomBouton est une chaine)
+         
+         nIndice est un entier
+         
+         
+         // Est ce que la callback a été définie ?
+         si gtaProcédures[nTypeCallback] = null ALORS
+         	retour
+         FIN
+         
+         // Recherche du bouton dans le tableau
+         nIndice = tableaucherche(gtabOptions, tcLinéaire, "sNomBouton", sNomBouton)
+         // Si le bouton a été trouvé dans le tableau
+         si nIndice > 0 ALORS
+         	// Exécute la procédure 
+         	pProc est une procédure = gtaProcédures[nTypeCallback]
+         	pProc(gtabOptions[nIndice]:sIdentifiant)
+         FIN
+        type : 458752
+      -
+        name : _CréeBouton
+        internal_properties : CAAAAAgAAAClr+X0Xh+ts4uB7dglvH0kaLGWyeNC2a3qevrwipJSVJMlSyfjibfjLzsrcEzfoUyEmbiHzbodoxLAlVOsD7+VzC5l4US+Qn81SEipfC8IfxxHBPUJAqZhMg52DuJtklX3YftaehBE6LFyfDtLeg9ZZ14n4Yg2sZOIgJg=
+        procedure_id : 1259803556880612483
+        type_code : 14
+        code : |1-
+         // Résumé : Création d'un bouton du menu
+         // Syntaxe :
+         //[ <Résultat> = ] _CréeBouton (<nPositionX> est entier, <nPositionY> est entier, <polPolice> est police, <sLibellé> est chaîne, <sImageFond> est chaîne, <sNomBouton> est chaîne, <nOpacité> est entier)
+         //
+         // Paramètres :
+         //	nPositionX (entier) : Coordonné X du bouton
+         //	nPositionY (entier) : Coordonné Y du bouton
+         //	polPolice (police) : Police associée au libellé du bouton
+         //	sLibellé (chaîne ANSI) : Libellé du bouton
+         //	sImageFond (chaîne ANSI) : Image de fond du bouton
+         //	sNomBouton (chaîne ANSI) : Nom du bouton
+         //	nOpacité (entier) : Opacité du bouton
+         // Valeur de retour :
+         // 	chaîne ANSI : Nom du bouton créé
+         //
+         
+         Procédure _CréeBouton(LOCAL nPositionX est un entier, LOCAL nPositionY est un entier, LOCAL polPolice est un police, LOCAL sLibellé est une chaine, LOCAL sImageFond est une chaine, LOCAL sNomBouton est une chaine, LOCAL nOpacité est un entier)
+         
+         // Le nom du bouton est-il renseigné ?
+         si sNomBouton = "" ALORS
+         	
+         	// Définit un nom unique pour le bouton
+         	sNomBouton = "BTN_MENU_" + DonneIdentifiant()
+         	
+         	// Clone le bouton de base
+         	ChampClone(BTN_OptionACloner,sNomBouton)
+         	
+         FIN
+         
+         // Positionne le bouton
+         {sNomBouton, indChamp}..X = nPositionX
+         {sNomBouton, indChamp}..Y = nPositionY
+         
+         // Modifie ces propriétés du bouton
+         {sNomBouton, indChamp}..police = polPolice
+         {sNomBouton, indChamp}..Opacité = nOpacité
+         {sNomBouton, indChamp}..Libellé = sLibellé
+         {sNomBouton, indChamp}..imagefond = sImageFond
+         {sNomBouton, indChamp}..Largeur = CoordonnéeEditeurVersEcran(TexteLargeurEx(sLibellé, polPolice))
+         {sNomBouton, indChamp}..visible = vrai
+         
+         // Renvoie le nom du bouton
+         renvoyer sNomBouton
+        type : 458752
+      -
+        name : _RouletteSouris
+        internal_properties : CAAAAAgAAABJypVNGofKEOMaZMMAtcm5JyAv9yLXUCBJxXLj5fmloJz3/Ux07i/3o9hPyaaJ823tPyZLQiSxWjUJdkJHwN0Fyr/8QQSOjl3Pc+a6JqgOyxzmGAztg8ko8Rls99Iv22HdENbdaxRR
+        procedure_id : 1259803556880678019
+        type_code : 14
+        code : |1-
+         // Résumé : Traitement à effectuer lorsque la roulette souris est activée
+         // Syntaxe :
+         //_RouletteSouris (<nMessage> est entier, <wParam> est entier, <lParam> est entier)
+         //
+         // Paramètres :
+         //	nMessage (entier) : Message de l'événement
+         //	wParam (entier) : Paramètre de l'événement
+         //	lParam (entier) : Paramètre de l'événement
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure _RouletteSouris(nMessage est un entier <utile>, wParam est un entier, lParam est un entier <utile>)
+         
+         nOption est un entier
+         
+         
+         // Si la roulette a été vers l'avant
+         si wParam > 0 ALORS
+         	
+         	// Il faut  monter (donc réduire l'option sélectionnée)
+         	nOption = max(1, gnOptionSélectionnée-1)
+         	
+         sinon
+         	
+         	// Il faut descendre (donc augmenter l'option sélectionnée)
+         	nOption = Min(gtabOptions..Occurrence, gnOptionSélectionnée+1)
+         	
+         FIN
+         
+         // Si l'option à sélectionner est différente de l'option déjà sélectionnée
+         si nOption <> gnOptionSélectionnée ALORS
+         	
+         	// Définit la nouvelle option sélectionnée
+         	gnOptionSélectionnée = nOption
+         	// Redessine le menu
+         	DessineMenu()
+         	
+         	// Exécute le code de sélection
+         	ExecuteCallBackSelection()
+         	
+         FIN
+        type : 458752
+      -
+        name : _SupprimeMenu
+        internal_properties : CAAAAAgAAAC68DRtPT8770D9J73TQn3Udx8fdux9/RFDfT1WLqqdk3piOL+rHmFwuaiT0SXnYWUgaEJvZ5lZn0vd/KxgMUFRwXyvSJp+9gquFv89YtYPoLu/P/IOKDRWC4SjC3J45L1A+U0tPM2QrwwbBl0=
+        procedure_id : 1259803556880743555
+        type_code : 14
+        code : |1-
+         // Résumé : Supprime le menu
+         // Syntaxe :
+         // Nouvelle_Procédure ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure _SupprimeMenu()
+         
+         // Parcours du tableau des boutons
+         pour i = 1 _a_ dimension(gtabOptions)
+         	
+         	// Si le nom du bouton n'est pas défini, passe au bouton suivant du tableau
+         	si gtabOptions[i]:sNomBouton ~= "" alors continuer
+         
+         	// Si le champ bouton existe
+         	si champexiste(gtabOptions[i]:sNomBouton) ALORS
+         		
+         		// Supprime le champ
+         		ChampSupprime(gtabOptions[i]:sNomBouton)
+         		
+         		// Remet le nom du bouton à vide
+         		gtabOptions[i]:sNomBouton = ""
+         		
+         	FIN
+         	
+         FIN
+        type : 458752
+      -
+        name : _ToucheEnfoncée
+        internal_properties : CAAAAAgAAADG/2JjJiWB2e5C44VC1Cahgu8Jhk/An4FnhQwVpfuQgFjkorTJiIiqeniaeITy7QxR2BR+Z1xmb+MmCBRR4MSs/gLBN+N91qDU1HLbnbsP1F2JiPf7pf4uVNAwf2pqcx2fy51muu5uHv14lWui1UKiv0s=
+        procedure_id : 1259803556880809091
+        type_code : 14
+        code : |1-
+         // Résumé : Procédure à exécuter lorsqu'une touche est enfoncée
+         // Syntaxe :
+         // Nouvelle_Procédure ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure _ToucheEnfoncée()
+         
+         // Selon la touche enfoncée
+         SELON _EVE.wParam
+         	
+         	// Flèche haut
+         	CAS VK_UP
+         		// Il faut monter : utilise le mécanisme de la roulette
+         		_RouletteSouris(WM_MOUSEWHEEL, 1, 0)
+         	
+         	// Flèche bas
+         	CAS VK_DOWN
+         		// Il faut descendre : utilise le mécanisme de la roulette
+         		_RouletteSouris(WM_MOUSEWHEEL, -1, 0)
+         	
+         	// Touche Début
+         	CAS VK_HOME
+         		// Première option
+         		gnOptionSélectionnée = 1
+         		// Exécute le code de sélection
+         		ExecuteCallBackSelection()
+         		// Dessine le menu
+         		DessineMenu()
+         	
+         	// Touche Fin
+         	CAS VK_END
+         		// Dernière option
+         		gnOptionSélectionnée = gtabOptions..Occurrence
+         		// Exécute le code de sélection
+         		ExecuteCallBackSelection()
+         		// Dessine le menu
+         		DessineMenu()		
+         		
+         	// Autre touche
+         	AUTRE CAS
+         		// Ne rien faire
+         FIN
+        type : 458752
+      -
+        name : _TrouveIndice
+        internal_properties : CAAAAAgAAACprLr5hXPpnXCZH5kBPWqR9sDS7+bNaZg6yMa55bZJ25JBjxkZIy2KrSfToK06HuhyTQLT/MQ4/A5vxuIk8ojd1emZ6CQkotX2kfWhz2GjtcRex/d4Lk/XQ9498H6gbwoLF41iJKtGxbaBTqLlkfkfn6MoY/NVqfPRy21m
+        procedure_id : 1259803556880874627
+        type_code : 14
+        code : |1+
+         // Résumé : Détermine l'indice du bouton
+         // Syntaxe :
+         //[ <Résultat> = ] _TrouveIndice (<sNomBouton> est chaîne)
+         //
+         // Paramètres :
+         //	sNomBouton (chaîne ANSI) : Nom du bouton pour lequel l'indice doit être trouvé
+         // Valeur de retour :
+         // 	entier : Indice du bouton dans le tableau des boutons (-1 si le bouton n'a pas été trouvé)
+         //
+         
+         Procédure _TrouveIndice(LOCAL sNomBouton est une chaine)
+         
+         nIndice est un entier
+         
+         
+         // Recherche le bouton dans le tableau des boutons
+         nIndice = tableaucherche(gtaboptions, tcLinéaire, "sNomBouton", sNomBouton)
+         
+         // Renvoie l'indice du bouton, -1 si le bouton n'a pas été trouvé
+         renvoyer nIndice
+        type : 458752
+      -
+        name : ActiveDésactiveAffichage
+        internal_properties : CAAAAAgAAADyOR0mnWQ62VSiVC4opG7MalB507ufsD0dOCtsKqlkW11iRyH+lN5VCYyOEdhvc+E9m7KTPQNqxvFR1GTg7ruem1WV8SI+jxpB2YtSydj9otKB0LDP/3eASg==
+        procedure_id : 1259803556880940163
+        type_code : 14
+        code : |1+
+         // Résumé : Active ou désactive l'affichage
+         // Syntaxe :
+         //ActiveDésactiveAffichage (<bActif> est booléen)
+         //
+         // Paramètres :
+         //	bActif (booléen) : VRAI pour activer l'affichage, FAUX pour le désactiver
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure ActiveDésactiveAffichage(LOCAL bActif est un booleen)
+         
+         
+         // Parcours des boutons du menu
+         pour i = 1 _a_ gtabOptions..Occurrence
+         
+         	// Si le champ bouton existe
+         	si champexiste(gtabOptions[i]:sNomBouton) = Vrai ALORS
+         		
+         		// Active ou désactive l'affichage de ce bouton
+         		{gtabOptions[i]:sNomBouton, indChamp}..AffichageActif = bActif
+         		
+         	FIN
+         	
+         FIN
+         
+        type : 458752
+      -
+        name : AjouteOption
+        internal_properties : CAAAAAgAAAC0/pCmsCI7trywx0As9qGqE0dYx+KxFSy98ProYJ1t9w6FES7jOV2qE7hABJGLQtl89ioiEAoHYRTe+fCgvXuLlVvTrnrzIYVRDkKWSrYL4tSMPQMlKx/+fYgE9YUmb5e1izONgyYV8V3QfoZbmeRc6tcpPg==
+        procedure_id : 1259803556881005699
+        type_code : 14
+        code : |1+
+         // Résumé : Ajoute une option au menu
+         // Syntaxe :
+         //AjouteOption (<sLibellé> est chaîne, <nIdentifiant> est entier [, <sImage> est chaîne])
+         //
+         // Paramètres :
+         //	sLibellé (chaîne ANSI) : Libellé de l'option à ajouter
+         //	nIdentifiant (entier) : Identifiant de l'option à ajouter
+         //	sImage (chaîne ANSI - valeur par défaut="") : Image associée à l'option
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure AjouteOption(LOCAL sLibellé est une chaine, LOCAL nIdentifiant est un entier, LOCAL sImage est une chaine = "")
+         
+         stUneOption est un ST_OPTIONS
+         
+         
+         // Mémorise les informations de l'option
+         stUneOption:sLibellé = sLibellé
+         stUneOption:sImage = sImage
+         stUneOption:sIdentifiant = nIdentifiant
+         
+         // Ajoute l'option au tableau des options
+         tableauajoute(gtabOptions, stUneOption)
+        type : 458752
+      -
+        name : DessineMenu
+        internal_properties : CAAAAAgAAADyOR0mnWQ62VSiVC4opG7MalB507ufsD0dOCtsKqlkW11iRyH+lN5VCYyOEdhvc+E9m7KTPQNqxvFR1GTg7ruem1WV8SI+jxpB2YtSydj9otKB0LDP/3eASg==
+        procedure_id : 1259803556881071235
+        type_code : 14
+        code : |1-
+         // Résumé : Dessine le menu
+         // Syntaxe :
+         // Nouvelle_Procédure ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         Procédure DessineMenu()
+         
+         nNbBoutonsHauteur est un entier
+         nOpacité est un entier
+         nPositionXCentre est un entier
+         nPositionYCentre est un entier
+         nCompteur est un entier
+         nPositionX est un entier
+         nPositionY est un entier
+         i est un entier
+         j est un entier
+         nDécalageOpactité est un entier
+         
+         
+         // Si aucune option n'est définie, ne rien faire
+         si gtabOptions..Occurrence = 0 alors retour
+         
+         // Désactive l'affichage des boutons
+         ActiveDésactiveAffichage(faux)
+         // Remet le libellé du bouton de référence à vide
+         BTN_OptionACloner..libellé = ""
+         
+         // Détermine le nombre de boutons en hauteur 
+         // => laisse 5 pixels entre chaque boutons
+         nNbBoutonsHauteur = CoordonnéeEditeurVersEcran(gnHauteurChampModele) / (CoordonnéeEditeurVersEcran(BTN_OptionACloner..hauteur) + CoordonnéeEditeurVersEcran(5))
+         
+         // Détermine le  décalage de l'opacité
+         nDécalageOpactité = 100 / min(gtabOptions..occurrence, nNbBoutonsHauteur/2)
+         
+         // Le bouton sélectionné doit être centré
+         nPositionXCentre = CoordonnéeEditeurVersEcran(gnPositionXChamp) + (CoordonnéeEditeurVersEcran(gnLargeurChampModele) - (CoordonnéeEditeurVersEcran(BTN_OptionACloner..Largeur) + CoordonnéeEditeurVersEcran(30) + CoordonnéeEditeurVersEcran(IMG_ImageOption..largeur))) / 2
+         nPositionYCentre = CoordonnéeEditeurVersEcran(gnPositionYChamp) + (CoordonnéeEditeurVersEcran(gnHauteurChampModele) - CoordonnéeEditeurVersEcran(IMG_ImageOption..Hauteur)) / 2
+         // Positionne l'image associé à l'option
+         IMG_ImageOption..x = nPositionXCentre
+         IMG_ImageOption..y = nPositionYCentre
+         nPositionXCentre += CoordonnéeEditeurVersEcran(30) + CoordonnéeEditeurVersEcran(IMG_ImageOption..largeur)
+         nPositionYCentre += CoordonnéeEditeurVersEcran(IMG_ImageOption..hauteur) /2 - CoordonnéeEditeurVersEcran(BTN_OptionACloner..Hauteur) /2
+         
+         // Crée et positionne et  le bouton sélectionné
+         gtabOptions[gnOptionSélectionnée]:sNomBouton = _CréeBouton(nPositionXCentre, nPositionYCentre,
+         gpolPoliceBoutonSélectionné,
+         gtabOptions[gnOptionSélectionnée]:sLibellé, gsImageFondBoutonSélectionné, 
+         gtabOptions[gnOptionSélectionnée]:sNomBouton, 100)
+         
+         // Affecte l'image de l'option dans le champ image
+         IMG_ImageOption = gtabOptions[gnOptionSélectionnée]:simage
+         
+         nPositionX = nPositionXCentre
+         nPositionY = nPositionYCentre
+         nOpacité = 100
+         nCompteur = 1
+         // Parcours des options précédentes
+         pour i = gnOptionSélectionnée - 1  a 1 pas -1
+         	
+         	// Définit les coordonnées du bouton
+         	nPositionX -= CoordonnéeEditeurVersEcran(Cosinus(gnOptionSélectionnée - i + 1) * 10 + 5 * (gnOptionSélectionnée - i + 1))
+         	nPositionY -= CoordonnéeEditeurVersEcran(5) + CoordonnéeEditeurVersEcran(BTN_OptionACloner..hauteur)
+         	// Définit l'opacité du bouton
+         	nOpacité -= nDécalageOpactité
+         	
+         	// Crée et positionne le bouton
+         	gtabOptions[i]:sNomBouton = _CréeBouton(nPositionX, nPositionY,
+         	gpolPoliceBoutonStandard,
+         	gtabOptions[i]:sLibellé, gsImageFondBoutonStandard,
+         	gtabOptions[i]:sNomBouton, nOpacité)
+         	
+         	// Incrémente le compteur d'option
+         	nCompteur++		
+         	// On sort si on a atteint le nombre de bouton /2 en hauteur
+         	si nCompteur > nNbBoutonsHauteur / 2 alors sortir
+         	
+         FIN
+         
+         // Rend les boutons précédents invisible
+         pour j = i a 1 pas -1
+         	
+         	// Si le champ bouton existe
+         	si champexiste(gtabOptions[j]:sNomBouton) ALORS
+         		// Rend le bouton invisible
+         		{gtabOptions[j]:sNomBouton, indChamp}..Visible = Faux	 
+         	FIN
+         	
+         FIN
+         
+         nPositionX = nPositionXCentre
+         nPositionY = nPositionYCentre
+         nOpacité = 100
+         nCompteur = 1
+         // Parcours des options suivantes
+         POUR i = gnOptionSélectionnée + 1 _a_ dimension(gtabOptions)
+         	
+         	// Définit les coordonnées du bouton
+         	nPositionX += abs(Cosinus(gnOptionSélectionnée - i + 1)) * 15 + 5 * (gnOptionSélectionnée - i + 1)
+         	nPositionY = nPositionYCentre + ((5 + BTN_OptionACloner..Hauteur) * nCompteur)
+         	// Définit l'opacité du bouton
+         	nOpacité -= nDécalageOpactité
+         	
+         	// Crée et positionne le bouton
+         	gtabOptions[i]:sNomBouton = _CréeBouton(nPositionX, nPositionY,
+         	gpolPoliceBoutonStandard,
+         	gtabOptions[i]:sLibellé, gsImageFondBoutonStandard, 
+         	gtabOptions[i]:sNomBouton, nOpacité)
+         	
+         	// Incrémente le compteur d'option
+         	nCompteur++
+         	// On sort si on a atteint le nombre de bouton /2 en hauteur
+         	SI nCompteur > nNbBoutonsHauteur / 2 ALORS SORTIR
+         	
+         FIN
+         // Rend les boutons précédents invisible
+         POUR j = i _a_ dimension(gtaboptions)
+         	
+         	// Si le champ bouton existe
+         	SI ChampExiste(gtabOptions[j]:sNomBouton) ALORS
+         		// Rend le bouton invisible
+         		{gtabOptions[j]:sNomBouton,indChamp}..Visible = Faux
+         	fin
+         	
+         FIN
+         
+         // Cache le bouton de référence
+         BTN_OptionACloner..Visible = faux
+         // Réactive l'affichage des options
+         ActiveDésactiveAffichage(vrai)
+        type : 458752
+      -
+        name : SelectOption
+        internal_properties : CAAAAAgAAAC/9hJ+NPNLGUbaquV0kLyqiRAwau/pI/jqj4MRXESWvVzSNIwViHsY2ZbVlHVeBx4JT+kXddaD1fUg6pM64+8lgqh1CNvY5NSSy2Sy25TxOOWIOt/saksKAEzyxfVuhkxGj/yqT6QA7pg/oRiXCSjxkqi0
+        procedure_id : 1259803556881136771
+        type_code : 14
+        code : |1+
+         // Résumé : Sélectionne une option
+         // Syntaxe :
+         //SelectOption (<nIndice> est entier)
+         //
+         // Paramètres :
+         //	nIndice (entier) : Indice de l'option sélectionnée
+         // Valeur de retour :
+         // 	Aucune
+         //
+         Procédure SelectOption(LOCAL nIndice est un entier)
+         
+         
+         // Si l'indice est correct 
+         si 0 < nIndice <= gtabOptions..Occurrence ALORS
+         	
+         	// Définit cette indice comme l'option en cours
+         	gnOptionSélectionnée = nIndice
+         	
+         	// Redessine le menu
+         	DessineMenu()
+         	
+         FIn
+        type : 458752
+      -
+        name : SetCallbackClic
+        internal_properties : CAAAAAgAAADyOR0mnWQ62VSiVC4opG7MalB507ufsD0dOCtsKqlkW11iRyH+lN5VCYyOEdhvc+E9m7KTPQNqxvFR1GTg7ruem1WV8SI+jxpB2YtSydj9otKB0LDP/3eASg==
+        procedure_id : 1259803556881202307
+        type_code : 14
+        code : |1+
+         // Résumé : Définit la procédure CallBack d'un clic sur une option
+         // Syntaxe :
+         //SetCallbackClic (<pProcédure> est procédure)
+         //
+         // Paramètres :
+         //	pProcédure (procédure) : procédure à appeler lors d'un clic sur une option
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetCallbackClic(LOCAL pProcédure est une procédure)
+         
+         // Mémorise la procédure
+         gtaProcédures[CALLBACK_CLIC] = pProcédure 
+        type : 458752
+      -
+        name : SetImageFondBouton
+        internal_properties : CAAAAAgAAADyOR0mnWQ62VSiVC4opG7MalB507ufsD0dOCtsKqlkW11iRyH+lN5VCYyOEdhvc+E9m7KTPQNqxvFR1GTg7ruem1WV8SI+jxpB2YtSydj9otKB0LDP/3eASg==
+        procedure_id : 1259803556881267843
+        type_code : 14
+        code : |1-
+         // Résumé : Définit l'image de fond des boutons
+         // Syntaxe :
+         //SetImageFondBouton (<sImage> est chaîne)
+         //
+         // Paramètres :
+         //	sImage (chaîne ANSI) : Image de fond de bouton
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetImageFondBouton(LOCAL sImage est une chaine)
+         
+         // Mémorise l'image de fond de bouton
+         gsImageFondBoutonStandard = sImage
+        type : 458752
+      -
+        name : SetImageFondBoutonSélection
+        internal_properties : CAAAAAgAAADyOR0mnWQ62VSiVC4opG7MalB507ufsD0dOCtsKqlkW11iRyH+lN5VCYyOEdhvc+E9m7KTPQNqxvFR1GTg7ruem1WV8SI+jxpB2YtSydj9otKB0LDP/3eASg==
+        procedure_id : 1259803556881333379
+        type_code : 14
+        code : |1-
+         // Résumé : Définit l'image de fond des boutons en sélection
+         // Syntaxe :
+         //SetImageFondBoutonSélection (<sImage> est chaîne)
+         //
+         // Paramètres :
+         //	sImage (chaîne ANSI) : Image de fond de bouton
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetImageFondBoutonSélection(LOCAL sImage est une chaine)
+         
+         // Mémorise l'image de fond de bouton en sélection
+         gsImageFondBoutonSélectionné = sImage
+        type : 458752
+      -
+        name : SetPoliceBouton
+        internal_properties : CAAAAAgAAADyOR0mnWQ62VSiVC4opG7MalB507ufsD0dOCtsKqlkW11iRyH+lN5VCYyOEdhvc+E9m7KTPQNqxvFR1GTg7ruem1WV8SI+jxpB2YtSydj9otKB0LDP/3eASg==
+        procedure_id : 1259803556881398915
+        type_code : 14
+        code : |1-
+         // Résumé : Définit la police des libellés des boutons
+         // Syntaxe :
+         //SetPoliceBouton (<polPolice> est police)
+         //
+         // Paramètres :
+         //	polPolice (police) : Police des libellés
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetPoliceBouton(LOCAL polPolice est une police)
+         
+         // Mémorise la police
+         gpolPoliceBoutonStandard = polPolice
+        type : 458752
+      -
+        name : SetPoliceBoutonSélection
+        internal_properties : CAAAAAgAAADnfSmSXzt4P8YqFEXMEiTRokH3IMWlWM/spZizq6qUmC2C01f46J1ihELd1899u381/gSP58ZLk0eFlyFx6litYmODL571iHk37+Y8MIj3V3KuoCyDIGybvS9/Nn9TkF5t5CpCNqKRZK/yg8bARedq
+        procedure_id : 1259803556881464451
+        type_code : 14
+        code : |1-
+         // Résumé : Définit la police des libellés des boutons en sélection
+         // Syntaxe :
+         //SetPoliceBoutonSélection (<polPolice> est police)
+         //
+         // Paramètres :
+         //	polPolice (police) : Police des libellés en sélection
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetPoliceBoutonSélection(LOCAL polPolice est une police)
+         
+         // Mémorise la police
+         gpolPoliceBoutonSélectionné = polPolice
+        type : 458752
+      -
+        name : TexteLargeurEx
+        internal_properties : CAAAAAgAAAB8gisFHPQzIo4dKb3BbBxUNp1AMl9vJZliV8wyhVpQBFrTIpOTsSQlISRxoNrWodDSrY7gxWIZocSPD+EQr27rnaLs+16eAktqYs48JGuB32BN9Gmbk6L+Mn1+jnFfbuetWJQFDepNgbFlWasnqX0Q0VhuCvxOEMc1nb3GKW2ML+4XKMWW76+oPaLLeJ5OjAXMojE+miPdnGKPCHcevFu9ohhgOxibV5XV42DiNVhH76/pZd3X3VzFC1LO6W8l3xuPEeZ08XBWb07mAj6h6IAfvcBlMlhDRqmlYAsGWrzrlx0yT0mA5v6M5E9aRnrvvBk5tfdfgdCtMswlE6TCFqw7kB+xCSwjKvAiB8Ie0/QD0kBAw3oy2V0I3RmYg58zIw3pbQ==
+        procedure_id : 1259803556881529987
+        type_code : 14
+        code : |1+
+         // Résumé : Définit la largeur d'un texte pour une police donnée
+         // Syntaxe :
+         //[ <Résultat> = ] TexteLargeurEx (<sTexte> est chaîne, <polPolice> est police)
+         //
+         // Paramètres :
+         //	sTexte (chaîne ANSI) : Texte
+         //	polPolice (police) : Police
+         // Valeur de retour :
+         // 	entier sur 8 octets : Largeur occupée par le texte pour cette police
+         //
+         
+         Procédure TexteLargeurEx(LOCAL sTexte est une chaine, LOCAL polPolice est une police)
+         
+         LOGFONT est une structure
+         	nHauteur est un entier
+         	nLargeur est un entier
+         	nEscapement est un entier
+         	nOrientation est un entier
+         	nGraisse est un entier
+         	bItalic est un entier sur 1
+         	bSouligné est un entier sur 1
+         	bBarré est un entier sur 1
+         	bCharset est un entier sur 1
+         	bPrécisionSortie est un entier sur 1
+         	bPrécisionClip est un entier sur 1
+         	bPitchAndFamily est un entier sur 1
+         	bQualité est un entier sur 1
+         	tabFontName est un tableau fixe de 32 chaines
+         FIN
+         ST_TextMetrics est une structure
+         	tmHeight est un entier 
+         	tmAscent est un entier
+         	tmDescent est un entier 
+         	tmInternalLeading est un entier
+         	tmExternalLeading est un entier 
+         	tmAveCharWidth est un entier 
+         	tmMaxCharWidth est un entier 
+         	tmWeight est un entier 
+         	tmOverhang est un entier
+         	tmDigitizedAspectX est un entier
+         	tmDigitizedAspectY est un entier
+         	tmFirstChar est un entier sans signe sur 1
+         	tmLastChar est un entier sans signe sur 1 
+         	tmDefaultChar est un entier sans signe sur 1
+         	tmBreakChar est un entier sans signe sur 1
+         	tmItalic est un entier sans signe sur 1
+         	tmUnderlined est un entier sans signe sur 1
+         	tmStruckOut est un entier sans signe sur 1
+         	tmPitchAndFamily est un entier sans signe sur 1
+         	tmCharSet est un entier sans signe sur 1
+         
+         FIN
+         ST_Taille est une structure
+         	nLargeur est un entier
+         	nHauteur est un entier
+         FIN
+         
+         nDC est un entier
+         
+         // Création d'un DC
+         nDC = API("gdi32", "CreateCompatibleDC", Null)
+         si nDC = 0 ALORS
+         	dbgassertion(faux, "Impossible de créer le DC")
+         FIN
+         // Copie de la police dans la structure FONT
+         stFont est un LOGFONT
+         
+         stFont:tabFontName[1] = polPolice..nom
+         // Graisse : 700 si gras, 400 si normal
+         stFont:nGraisse = polPolice..Gras ? 700 sinon 400
+         stFont:bItalic = polPolice..italique 
+         stFont:bSouligné = polPolice..souligné
+         stFont:bbarré = polPolice..barré
+         stFont:nHauteur = polPolice..taille
+         
+         nHandlePolice est un entier systeme
+         // Création de la police
+         nHandlePolice = api("gdi32", "CreateFontIndirectA", &stFont)
+         si nHandlePolice = 0 ALORS
+         	dbgassertion(faux, "Impossible de créer la police")
+         FIN
+         
+         // On associe la police au DC
+         api("gdi32", "SelectObject", nDC, nHandlePolice)
+         stTaille est un st_taille
+         
+         api("gdi32", "GetTextExtentPoint32A", nDC, &sTexte, taille(sTexte), &stTaille)
+         sttm est un ST_TextMetrics
+         
+         api("gdi32", "GetTextMetricsA",nDC, &sttm)
+         
+         logPixY est un entier = api("gdi32", "GetDeviceCaps", nDC, 90) // 90 = LOGPIXELSY
+         
+         Api("user32", "ReleaseDC", null, nDC)
+         api("Kernel32", "CloseHandle", nHandlePolice)
+         
+         renvoyer stTaille:nLargeur - sttm:tmOverhang + logPixY
+        type : 458752
+      -
+        name : SetCallbackSelection
+        internal_properties : CAAAAAgAAAD8v0uiOguO+SAkw1e2iGWeglF8c4pk27x7zZ8uUXkxmzS1vB57oo8833qv5H8M7EOi4bvxUUgMwHzW8XptzrTntaDU/HIne+MAC/J96577sGejt7LL/N1Oj6KQfF/Gn67/z6PvWw==
+        procedure_id : 1259803556881595523
+        type_code : 14
+        code : |1+
+         // Résumé : Définit la procédure CallBack de la sélection d'une option
+         // Syntaxe :
+         //SetCallbackSelection (<pProcédure> est procédure)
+         //
+         // Paramètres :
+         //	pProcédure (procédure) : procédure à appeler lors de la sélection d'une option
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetCallbackSelection(LOCAL pProcédure est une procédure)
+         
+         // Mémorise la procédure
+         gtaProcédures[CALLBACK_SELECTION] = pProcédure
+        type : 458752
+      -
+        name : ExecuteCallBackSelection
+        internal_properties : CAAAAAgAAAAfk+I28BrbrnrVW/xRDqg198XyYEmedXVybhC2LzXbBzWKXWUHjxKVrPLYq9hhy/9ahGfakLjsSR1A8abZiopuDx+U9KJZkn9DO8cEZohJiZfQrVbFz+j+Dhw/QW5nG/IT
+        procedure_id : 1259803556881661059
+        type_code : 14
+        code : |1-
+         // Résumé : Exécute la CallBack de sélection pour le bouton courant
+         // Syntaxe :
+         // Nouvelle_Procédure ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure ExecuteCallBackSelection()
+         
+         
+         // Si l'indice de sélection courant est correct
+         si 1 <= gnOptionSélectionnée <= gtaboptions..Occurrence alors 
+         	
+         	// Si une procédure de sélection est renseignée
+         	SI gtaProcédures[CALLBACK_SELECTION] <> null ALORS 
+         		// Exécute la procédure de sélection
+         		pProc est une procédure = gtaProcédures[CALLBACK_SELECTION]
+         		pProc( gtabOptions[gnOptionSélectionnée]:sIdentifiant)
+         		
+         	Fin 
+         	
+         FIN
+        type : 458752
+      -
+        name : ExecuteCallBackClic
+        internal_properties : CAAAAAgAAAAJdEFIU7fFwEDvvWXX1coHS1ChCC0RAcQa9JVX5kuiClAAZ2OpGbQOHzuTcEuP4/kIQFut2hJD5rYQXa6b0PabI+XljkbbQVEhoR5RYkqwDI8J36f8d3qGO6FRelHLDR3cJvxJwzXVRR7ybTLRFhNKsXAvLZN0cUgg
+        procedure_id : 1259803556881726595
+        type_code : 14
+        code : |1-
+         // Résumé : Exécute la CallBack de sélection pour le bouton courant
+         // Syntaxe :
+         // Nouvelle_Procédure ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure ExecuteCallBackClic()
+         
+         
+         // Si l'indice de sélection courant est correct
+         si 1 <= gnOptionSélectionnée <= gtaboptions..Occurrence ALORS
+         	
+         	// Si une procédure de clic est renseignée
+         	Si gtaProcédures[CALLBACK_CLIC] <> null alors 
+         		// Exécute la procédure de sélection
+         		pProc est une procédure = gtaProcédures[CALLBACK_CLIC]
+         		pProc( gtabOptions[gnOptionSélectionnée]:sIdentifiant)
+         		
+         	Fin
+         	
+         Fin
+        type : 458752
+      -
+        name : Redim
+        internal_properties : CAAAAAgAAADMd38agcLa2B5Y2hMHNp7hHme95CQOamNbumC6pHdAlatD5LRx8kioWx/uE0zxoJFc1DLbo6J+BdfKrONwP8HAniBvE9tEpdAFcrZAq5WeY6d2fymFopq8xhVpj70PpKDEV6cvD/z3bGmFqenWWZA9ns0yo/leZ1QGc5iRgfbGJm4H5YSRk7LkYGhMbOCUs2/eWW97ZqMRohRx4xT1Yr+JkTan6Ka8J5BUfIo42/28985xkcWSlasCgPUIq38nm1oeR3k+tiXIr2IDqvXY8tIumCOY2Cug
+        procedure_id : 1259803556881792131
+        type_code : 14
+        code : |1-
+         // Résumé : Redimensionnement
+         // Syntaxe :
+         // Nouvelle_Procédure ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure Redim()
+         
+         // Lorsque la fenêtre est redimensionnée, il transmettre les informations du champ au modèle
+         // - Dimensions du champ "modèle de champ"
+         gnHauteurChampModele = {gsNomChampModele,indchamp}..Hauteur
+         gnLargeurChampModele = {gsNomChampModele,indChamp}..Largeur
+         // - Position du champ "modèle de champ"
+         gnPositionXChamp = {gsNomChampModele,indChamp}..X
+         gnPositionYChamp = {gsNomChampModele,indChamp}..Y
+         
+         // Rafraichissement de l'affichage
+         DessineMenu()
+        type : 458752
+      -
+        name : SetModeUnClic
+        internal_properties : CAAAAAgAAACHNbA7Xa8wLtvmOqvbm84lBgNDc4q+X4DaMZlMmiloKyHaCEwVEl505VoxHmfj+ey4OAh1h/ZtrXbSn88vTajfETMtxobbKt/L6mU+iCbGWDQlMyjiiCAVTkRC/XfY0XkLWMhsvWyCe0WA4jhc
+        procedure_id : 1259803556881857667
+        type_code : 14
+        code : |1-
+         // Résumé : Définit si le mode du menu est en un clic ou non
+         // En mode "un clic" : un clic sur une option en repos sélectionnera l'option, et exécutera automatiquement le code de validation 
+         // Sans mode "un clic" : un clic sur une option en repos sélectionnera l'option.
+         // Syntaxe :
+         //SetModeUnClic ( [<bModeUnClic> est booléen])
+         //
+         // Paramètres :
+         // 	bModeUnClic (booléen - valeur par défaut=1) : <indiquez ici le rôle de bModeUnClic>
+         // Valeur de retour :
+         // 	Aucune
+         //
+         
+         Procédure SetModeUnClic(LOCAL bModeUnClic est un booleen = vrai)
+         
+         gbModeUnClic = bModeUnClic
+        type : 458752
+     templates :
+      -
+        name : CMOD_Menu
+        identifier : 0x1543d0a9024099a1
+        code_elements :
+         internal_properties : CAAAAAgAAABp9+q3lJKMyf7BhFMqc57LrH+M5w82lCK+YtGjXlgzESr2Lvh64Owwrm6tv3ob+swLzjDQEOS4Sz+QCTg8ZzPgh58pwMtlRfG6Iy2TlgEAh9IxpghsrUjZ
+         type_code : 93
+         p_codes :
+          -
+            internal_properties : CAAAAAgAAAAsZl/fYRGJUjZjKt0V1P9U3+p3qpa8sI3vaCvA3b39rVfoHHkatxtH/0dhT6Cxr2oq0G2tkZtlyquNlL2a40ueMwaLg1+MCq6e00IUpgZtE/HrZQOutdvf5d3YAff99H5SV5cB2OtH96+s21tCUEgc01BVrC7PbtQFY4UaDau0n5IlSjhxRUNpiWkKIxX1yiowdq6AxwRozuQ=
+            code : |1+
+             EXTERNE "winconst.wl"
+             EXTERNE "keyconst.wl"
+             
+             // Constantes du modèle de champ
+             CONSTANT
+             	// Constante d'appel de callback 
+             	CALLBACK_CLIC		= 1 // Clic sur un élément
+             	CALLBACK_SURVOL		= 2	// Survol d'un élément
+             	CALLBACK_SELECTION	= 3 // Sélection d'un élément
+             FIN
+             
+             
+             // Structure Options du modèle de champ
+             ST_OPTIONS est une structure
+             	sNomBouton		est une chaine	// Nom du bouton option
+             	sIdentifiant	est une chaine	// Identifiant du bouton 
+             	sImage			est une chaine	// Image associée au bouton
+             	sLibellé		est une chaine	// Libellé du bouton
+             FIN
+             
+             // Variables globales au modèle de champs
+             gtabOptions						est un tableau de st_options	// Tableau des options de menu
+             gsImageFondBoutonSélectionné	est une chaine					// Image de fond du bouton sélectionné
+             gpolPoliceBoutonSélectionné		est une police					// Police du bouton sélectionné
+             gsImageFondBoutonStandard		est une chaine					// Image de fond d'un bouton standard
+             gpolPoliceBoutonStandard		est une police					// Police d'un bouton standard
+             gnOptionSélectionnée			est un entier					// Options actuellement sélectionnée
+             gbModeUnClic					est un booleen					// Définit si le menu est en mode "un clic"
+             gtaProcédures					est un tableau associatif (*, Null)  de procédures
+             gnLargeurChampModele			est un entier					// Largeur du modèle
+             gnHauteurChampModele			est un entier					// Hauteur du modèle
+             gnPositionXChamp				est un entier					// Position du modèle (coordonnée X)
+             gnPositionYChamp				est un entier					// Position du modèle (coordonnée Y)
+             gsNomChampModele				est une chaine					// Nom du champ modèle de champ
+             
+             gpolPoliceBoutonStandard	= BTN_OptionACloner..Police // Définit la police par défaut
+             gpolPoliceBoutonSélectionné	= BTN_OptionACloner..Police // Définit la police de sélection par défaut
+             
+             // Evènements liés au modèle de champ
+             Evénement(_RouletteSouris, ".*", WM_MOUSEWHEEL) // Activation de la molette souris
+             Evénement(_ToucheEnfoncée, ".*", WM_KEYDOWN) // Appui sur une touche
+          -
+            internal_properties : CAAAAAgAAACK9b5Oq14NaEcmuwZu88Tb77jdcVChXG5lO/eLadv+AxvosD3h2fcXktJTKXFeN8izaJM7jx/j4oH21D9pKnGVdsGkMRzAgZ7/1xQqD9oPZ4yr7hfnV8sZ2eNBYB657JMITw2RueM6UTrTew==
+            code : |1+
+             // Par défaut, la 1ère option est sélectionnée
+             gnOptionSélectionnée = 1
+             
+             // Par défaut, le menu est en mode "Un clic"
+             gbModeUnClic = vrai
+             
+             // Stocke la largeur et la hauteur du champ modèle de champ
+             gnLargeurChampModele = MoiMême..Largeur
+             gnHauteurChampModele = MoiMême..Hauteur
+             // Stocke les coordonnées du champ modèle de champ
+             gnPositionXChamp = MoiMême..X
+             gnPositionYChamp = MoiMême..Y
+             // Mémorise le nom du chemin complet
+             gsNomChampModele = moimeme..NomComplet
+            type : 14
+          -
+            code : |1-
+             
+            type : 15
+          -
+            code : |1-
+             
+            type : 16
+          -
+            code : |1-
+             
+            type : 43
+          -
+            code : |1-
+             
+            type : 42
+          -
+            code : |1-
+             
+            type : 17
+          -
+            code : |1-
+             
+            type : 65541
+     procedure_templates : []
+     property_templates : []
+  -
+    name : LIB_Libellé1
+    identifier : 0x217bb8a92d5c7c83
+    internal_properties : CAAAAAgAAACVv+BXBuoznto/c6E9qOLN59L1pXxmcIh1A83IpCBUEfZjcKk3NGV1oLjGMTTUd0rml61tYJ1o3kz8fbTZOsaVDV7zhOSowfXmHx9udk5UuiDbqMbOAXeJU5HxuP7HN8rmrL3tmxLNZsg+vQv1rBtbWGRuaG6b4KZot/VVWL8BAPbGQzNCDIC97koR7/SuH+op8Ha0WE4DvpG1R2okYhc+wuXMs31X2hUvY6HfzRUgoYRQPVLiL9vvp0W9TjrdH5lEKAc56t8t/q3vC35qyepDy2MU/yf1tPvyb7CPHrZQy90BdWM3bPWCHA2FPSRej5BxMmNRRmpC+Bd2yxgvvSrVQtcw1Jc2kUbMEWQ122e/S4N6/FdIG7ya3LqX2UpOkPseVW3Qhvv107BZMnkOjFGPUXNwiBCKyLAciIWG8XPVkaciHbFyNWkL3BaX+N681PMxiByWjjilMqSuH7wY1Jo+4szxzFjAF7DPpfMQWY9w87z7jnchpIMMWCxQpAHihoOz5yccC+0XM8Z2Tu/Chdrc/tHwQs+DHWOi5Jd3KLKkk7w3Vcjv8j00LZn54DXTwVFOsnG4FLsX+nNRthlma2jpYZ3wBCeuFyjHlXDuwzWuUrtN/cZrt2gKsYuPBdq5MQRK4HhDqwyHKoxGsbwv+xKSyOWPsZCeVcPtgwtvgO33mSHdHgujsOKLCGU7PaFunaN6TfCO/K+zuPbY8zcNd2ODaBCYI+B6jZ0q6f2XEb8HJMNxyG5AplyiDyrkbBpCU1cujS8TbXruZ+GzEam18TBWOxUlJS8sdhBZZmJyol7MqzsOjAdiRC5BT2xEsHU/7shfoBg4Pc1YtZ9ruy1zsi76PHfNeDE6Ka3qVIpbH69LStLJxL7YpV8vfpq6pTPZG+Nl7XgjfB84OPOKUHIrYu1G2Z/xukAC2rd+mjgFJNaM3L8ZivOHvkvIzHxDX1KAUCL6cSRXGqZ6CAVzfLiHTGZ/3TERGENp7g==
+    properties :
+     x : 19
+     y : 344
+     width : 743
+     height : 133
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x28f8b4bb0e8e0db0
+  internal_properties : CAAAAAgAAACPjLuTHPR5lZ7fwgC0Bxc4S212P4swEKBaDcMODvdW2iZkxUXRCyFmtPq1bH1yHHT0RdTUU+8AfXYHrH4s7A51rR2oT+a5InOItTsriW4oGpOTmNfU0GSeN/jcVvwvE7ROh9NcdqHqHsMCGr/3hK4U72YXRJSXSfGut2betrLZ9k1p570rsaosXQoNAcBzEUHzcoPeVgZqCH62NZRdN/TrYdOQVNQNG6ThwIT8TXhj2kA3epiEhFpGDs+0hD3TKdZiVoEh3cMOXUYKvoMDcpUmWlLWYMDzTu5tvOuYaeF/OQ8OfMJyYO5/
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD5EGh+DSG1SzNVXvcDXR54QFSHnZbx/tQzVb0gK8VU298u5VizqnME1KO3JtsgyH926xm0z8gWvuGJDcObG0HKeevBV1p/7nPNiOB1DXvGZQ==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure FEN_Proposition2()
+      
+      constante
+      	// Images du menu
+      	cstMENU_ASSISTANCE_IMAGES = ".\Menu\Menu_Assistance.png"
+      	cstMENU_CLIENTS_IMAGES = ".\Menu\Menu_Clients.png"
+      	cstMENU_COMMANDES_IMAGES = ".\Menu\Menu_Commandes.png"
+      	cstMENU_CONTRATS_IMAGES = ".\Menu\Menu_Contrats.png"
+      	cstMENU_FACTURE_IMAGES = ".\Menu\Menu_Facture.png"
+      	cstMENU_PRODUITS_IMAGES = ".\Menu\Menu_Produits.png"
+      	cstMENU_RESSHUMAINES_IMAGES = ".\Menu\Menu_RessourcesHumaines.png"
+      	cstMENU_STATS_IMAGES = ".\Menu\Menu_StatistiquesRapport.png"
+      	cstMENU_STOCK_IMAGES = ".\Menu\Menu_Stock.png"
+      	
+      	// Numéro d'option de menu
+      	cstMENU_ASSISTANCE = 1
+      	cstMENU_CLIENTS = 2
+      	cstMENU_COMMANDES = 3
+      	cstMENU_CONTRATS = 4
+      	cstMENU_FACTURE = 5
+      	cstMENU_PRODUITS = 6
+      	cstMENU_RESSHUMAINES = 7
+      	cstMENU_STATS = 8
+      	cstMENU_STOCK = 9
+      	
+      FIN
+   -
+     code : |1-
+      // Initialise le Menu
+      InitialiseMenu()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+   -
+     code : |1-
+      CMOD_Menu.redim()
+     type : 65541
+  procedures :
+   -
+     name : InitialiseMenu
+     procedure_id : 1259803556880415875
+     type_code : 14
+     code : |1-
+      // Résumé : Initialisation du menu
+      // Syntaxe :
+      //InitialiseMenu ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure InitialiseMenu()
+      
+      polPoliceOption est une police // Police des options
+      polPoliceOptionSelect est une Police // Police de l'option sélectionnée
+      
+      
+      // Ajoute les options de menu
+      CMOD_MENU.AjouteOption("Assistance", cstMENU_ASSISTANCE, cstMENU_ASSISTANCE_IMAGES)
+      CMOD_MENU.AjouteOption("Clients", cstMENU_CLIENTS, cstMENU_CLIENTS_IMAGES)
+      CMOD_MENU.AjouteOption("Commandes", cstMENU_COMMANDES, cstMENU_COMMANDES_IMAGES)
+      CMOD_MENU.AjouteOption("Contrats", cstMENU_CONTRATS, cstMENU_CONTRATS_IMAGES)
+      CMOD_MENU.AjouteOption("Factures", cstMENU_FACTURE, cstMENU_FACTURE_IMAGES)
+      CMOD_MENU.AjouteOption("Produits", cstMENU_PRODUITS, cstMENU_PRODUITS_IMAGES)
+      CMOD_MENU.AjouteOption("Collaborateurs", cstMENU_RESSHUMAINES, cstMENU_RESSHUMAINES_IMAGES)
+      CMOD_MENU.AjouteOption("Statistiques", cstMENU_STATS, cstMENU_STATS_IMAGES)
+      CMOD_MENU.AjouteOption("Stocks", cstMENU_STOCK, cstMENU_STOCK_IMAGES)
+      
+      // Définit la police des options
+      polPoliceOption..Couleur = iBlanc
+      polPoliceOption..Taille = 22
+      polPoliceOption..nom = "Open Sans"
+      CMOD_MENU.SetPoliceBouton(polPoliceOption)
+      
+      // Définit la police de l'option sélectionnée
+      polPoliceOptionSelect..Couleur = iBlanc
+      polPoliceOptionSelect..Taille = 22
+      polPoliceOptionSelect..Nom ="Open Sans"
+      polPoliceOptionSelect..Gras = vrai
+      CMOD_MENU.SetPoliceBoutonSélection(polPoliceOptionSelect)
+      
+      // Définit les images de fond de bouton
+      CMOD_MENU.SetImageFondBouton("FondBouton.png")
+      CMOD_MENU.SetImageFondBoutonSélection("FondSelection.png")
+      
+      // Définit la procédure CallBack à exécuter lors d'un clic
+      CMOD_MENU.SetCallbackClic(OuvreMenu)
+      
+      // Mode un clic
+      CMOD_Menu.SetModeUnClic(vrai)
+      
+      // Dessine le menu
+      CMOD_MENU.DessineMenu()
+     type : 458752
+   -
+     name : OuvreMenu
+     internal_properties : CAAAAAgAAACyPf6Vu9iDiXoa1+0q1psib8Rs3KID7f5oskzVDVSSg7YbsQyR6rC14IiKMB621a7knHRl7v6tI3BcJZ5sPETlR7Bq+pxSbxIGXprMfr/gi5h105vnqDVC3rO+MJVG+JW1bHOJvjPnoOIVoLcm4sv271XZUHrHormiV2aYd4NplBAybCCpKDeiTiNls/aebxIkwS/OQUo=
+     procedure_id : 1259803556880481411
+     type_code : 14
+     code : |1-
+      // Résumé : Ouvre l'option demandée
+      // Syntaxe :
+      //OuvreMenu (<nOption>)
+      //
+      // Paramètres :
+      //	nOption : Identifiant de l'option sur laquelle le clic a eu lieu
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure OuvreMenu(nOption)
+      
+      
+      // Selon l'option cliquée
+      SELOn nOption
+      	CAS cstMENU_ASSISTANCE : Info("Ouverture de la fenêtre d'assistance des utilisateurs")
+      	CAS cstMENU_CLIENTS : Info("Ouverture de la fenêtre des gestion de clientèle")
+      	CAS cstMENU_COMMANDES : Info("Ouverture de la fenêtre des gestion des commandes")
+      	CAS cstMENU_CONTRATS : Info("Ouverture de la fenêtre des gestion des contrats")
+      	CAS cstMENU_FACTURE : Info("Ouverture de la fenêtre des gestion des factures")
+      	CAS cstMENU_PRODUITS : Ouvre(FEN_Produits)
+      	CAS cstMENU_RESSHUMAINES : Info("Ouverture de la fenêtre des gestion des collaborateurs")
+      	CAS cstMENU_STATS : Info("Ouverture de la fenêtre de statistiques de ventes")
+      	CAS cstMENU_STOCK : Info("Ouverture de la fenêtre des gestion du stock")
+      	AUTRES CAS : Erreur("Cette option est inconnue.")
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB8FUQosGtkpIMtXou//sG/qqIMHsionRKguy05QFzVgDhNlRVhX3buE8iy7q/GDIdYasr3cYdNVWpHHPa3ilm6imWExGZ0IHT9NlGbBUfglngHXhfwEvZ4eXmp20UlM+HHmG1ePQPgcJt60T2dvni4VeE=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fc7965513e6522e
+  internal_properties : CAAAAAgAAABPrGoK+uxjEcI9g3bvgnH2hgFUuHhoj2v4/aupladKGYVbCorUJkiA74qP11sVgoMfnCLMWA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_MonApplication.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,88 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pAnimationMenuPredefinie
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1a1eac3d009bce85
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAgV5FnDs600mZcQZaonv9DcZtsUyuI3PmeE6+CquF6O4cyOQiyeeFwzcTNmFDb39B7SCRgAWDMGzavWfeO2BKFrrAaRhlUQcBCZeFsFET/HA==
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      // Cette collection de procédures permet de gérer les animations d'un menu donné
+      gsProcédurePrépare	est une chaine	// Procédure de préparation
+      gsProcédureJoue		est une chaine	// Procédure de lecture
+      gnNuméroAnimation	est un entier	// Numéro de l'animation
+      gbAnimationsActives	est un booleen = vrai	// Animations activées
+     type : 720896
+  procedures :
+   -
+     name : AnimMenuPrépare
+     procedure_id : 1882131072290705029
+     type_code : 15
+     group : 2
+     code : |1-
+      // Résumé : exécute la procédure de préparation (positionnement des champs, visibilité)
+      // Syntaxe :
+      //AnimMenuPrépare ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AnimMenuPrépare()
+      
+      // Si une procédure est bien définie
+      SI gsProcédurePrépare <> "" ALORS
+      	// Exécute la procédure
+      	Exécute(gsProcédurePrépare)
+      Fin
+     type : 458752
+   -
+     name : AnimMenuJoue
+     internal_properties : CAAAAAgAAADz2jIIXYVFRFZfLF3SUTaQO4fsial9sdN2EdmcwOH+foql6JtHQfKTg3REuSqE2AYzb64EwKvmzE1hJ6MPcZMa5V+bsnoIaTu0kAh3T9mPIR1cAUf1S4ywcx2vR2bRFtB4S3e/sZ+bvFCBL9j1e4sPYKbM5fzJZIYFrOQ7gzV8/w==
+     procedure_id : 1882131072290770565
+     type_code : 15
+     group : 2
+     code : |1-
+      // Résumé : Joue l'animation de menu
+      // Syntaxe :
+      //AnimMenuJoue ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code, avec un différé de 
+      // 
+      
+      Procédure AnimMenuJoue()
+      
+      // Si une procédure est bien définie
+      si gsProcédureJoue <> "" alors
+      	// Exécute la procédure
+      	Exécute(gsProcédureJoue)
+      fin
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1fbceea60cbcde5a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
